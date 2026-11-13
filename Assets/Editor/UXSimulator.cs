@@ -79,6 +79,76 @@ namespace XRGames.UXTesting
             Debug.Log($"[UXSimulator] Complete: {report.Passed}/{report.TotalTested} suites passed. Report saved to {jsonPath}");
         }
 
+        [MenuItem("XR/Create Interactive Test Scene")]
+        public static void CreateInteractiveScene()
+        {
+            string scenesDir = Path.Combine(Application.dataPath, "Scenes");
+            Directory.CreateDirectory(scenesDir);
+
+            var scene = UnityEditor.SceneManagement.EditorSceneManager.NewScene(
+                UnityEditor.SceneManagement.NewSceneSetup.EmptyScene,
+                UnityEditor.SceneManagement.NewSceneMode.Single
+            );
+
+            // Setup table, camera, and lighting
+            SetupTestEnvironment(out GameObject envRoot);
+
+            // Add Showcase Props to Table
+            // 1. Socket Trackball (Left)
+            var socketChassis = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            socketChassis.name = "Trackball_Chassis";
+            socketChassis.transform.SetParent(envRoot.transform);
+            socketChassis.transform.position = new Vector3(-0.16f, 0.015f, 0.35f);
+            socketChassis.transform.localScale = new Vector3(0.09f, 0.015f, 0.09f);
+            socketChassis.GetComponent<Renderer>().material = CreateMat(new Color(0.25f, 0.25f, 0.28f), 0.8f, 0.7f);
+
+            var trackball = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            trackball.name = "Trackball_Prop";
+            trackball.transform.SetParent(socketChassis.transform);
+            trackball.transform.localPosition = new Vector3(0, 1.8f, 0);
+            trackball.transform.localScale = Vector3.one * 0.85f;
+            trackball.GetComponent<Renderer>().material = CreateMat(new Color(0.92f, 0.90f, 0.82f), 0.15f, 0.85f);
+            trackball.AddComponent<XRGames.C4_1A.SocketTrackball.SocketTrackballRig>();
+
+            // 2. Weeble Sumo (Center)
+            var weebleRoot = new GameObject("WeebleSumo_Prop");
+            weebleRoot.transform.SetParent(envRoot.transform);
+            weebleRoot.transform.position = new Vector3(0f, 0.00f, 0.35f);
+
+            var dohyo = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            dohyo.name = "DohyoRing";
+            dohyo.transform.SetParent(weebleRoot.transform);
+            dohyo.transform.localPosition = new Vector3(0, 0.002f, 0);
+            dohyo.transform.localScale = new Vector3(0.20f, 0.001f, 0.20f);
+            dohyo.GetComponent<Renderer>().material = CreateMat(new Color(0.80f, 0.70f, 0.50f), 0.1f, 0.3f);
+
+            var weebleBody = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            weebleBody.name = "WeebleVisual";
+            weebleBody.transform.SetParent(weebleRoot.transform);
+            weebleBody.transform.localPosition = new Vector3(0, 0.065f, 0);
+            weebleBody.transform.localScale = new Vector3(0.075f, 0.12f, 0.075f);
+            weebleBody.GetComponent<Renderer>().material = CreateMat(new Color(0.85f, 0.15f, 0.15f), 0.3f, 0.7f);
+            var weebleRig = weebleRoot.AddComponent<XRGames.Chapter4.WeebleSumo.WeebleRig>();
+            weebleRig.sumoVisual = weebleBody.transform;
+
+            // 3. Medusa Jellyfish (Right)
+            var jellyRoot = new GameObject("MedusaJellyfish_Prop");
+            jellyRoot.transform.SetParent(envRoot.transform);
+            jellyRoot.transform.position = new Vector3(0.16f, 0.070f, 0.35f);
+
+            var jellyBell = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            jellyBell.name = "JellyBell";
+            jellyBell.transform.SetParent(jellyRoot.transform);
+            jellyBell.transform.localPosition = Vector3.zero;
+            jellyBell.transform.localScale = new Vector3(0.11f, 0.07f, 0.11f);
+            jellyBell.GetComponent<Renderer>().material = CreateMat(new Color(0.2f, 0.85f, 0.95f, 0.6f), 0.1f, 0.95f, new Color(0.1f, 0.5f, 0.8f));
+            jellyRoot.AddComponent<XRGames.Chapter4.MedusaJellyfish.JellyRig>();
+
+            string scenePath = "Assets/Scenes/Interactive_Playground.unity";
+            UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene, scenePath);
+            Debug.Log("[UXSimulator] Successfully created interactive playground scene at: " + scenePath);
+        }
+
         // ==========================================
         // Helper: PBR Material Factory
         // ==========================================
