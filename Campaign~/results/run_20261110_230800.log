@@ -1,0 +1,985 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.64f1-d4299b69b02d' branch; Version is '6000.0.64f1 (5360b7cd7953) revision 5464247'; Using compiler version '193933523'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-EC2AMAZ-A5VVK8K$ doesn't exist
+OS: 'Windows 11  (10.0.26100) 64bit ServerDatacenter' Language: 'en' Physical Memory: 7932 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-11-10T23:08:00Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 2356)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\Users\Administrator\UnityProjects\MetaXRSim
+-runTests
+-testPlatform
+EditMode
+-testResults
+C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261110_230800.xml
+-logFile
+C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261110_230800.log
+Successfully changed project path to: C:\Users\Administrator\UnityProjects\MetaXRSim
+C:/Users/Administrator/UnityProjects/MetaXRSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5936]  Target information:
+
+Player connection [5936]  * "[IP] 172.31.11.93 [Port] 55504 [Flags] 2 [Guid] 2713729636 [EditorId] 2713729636 [Version] 1048832 [Id] WindowsEditor(7,EC2AMAZ-A5VVK8K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5936] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EC2AMAZ-A5VVK8K$" at "2026-11-10T23:08:01.0194485Z"
+[Package Manager] Connected to IPC stream "Upm-6548" after 1.0 seconds.
+Library Redirect Path: Library/
+FMOD initialized on nosound output
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.64f1 (5360b7cd7953)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/UnityProjects/MetaXRSim/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002547 seconds.
+- Loaded All Assemblies, in  0.679 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              76f21005a8ab422e9762035ae88b0752
+  Correlation Id:          a9b570ee547f80998a9fff48c7d98fa1
+  External correlation Id: 5018819122404932951
+  Machine Id:              zNw5v5yYNmaLlvrud47BexdsNoQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-EC2AMAZ-A5VVK8K$" (connect: 0.68s, validation: 0.41s, handshake: 1.51s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EC2AMAZ-A5VVK8K$-notifications" at "2026-11-10T23:08:02.9409739Z"
+[Licensing::Module] Connected to LicensingClient (PId: 2356, launch time: 0.00, total connection time: 2.61s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1314ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (257ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (637ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469854618815-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.07
+[Licensing::Module] Licensing Background thread has ended after 2.79s
+[Licensing::Module] Licensing is initialized (took 0.07s).
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 45 packages:
+  Packages from [https://npm.developer.oculus.com]:
+    com.meta.xr.sdk.core@207.0.1 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.meta.xr.sdk.core@4c2eac90db2d)
+  Packages from [https://packages.unity.com]:
+    com.unity.xr.hands@1.7.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.hands@6361f2b63a8e)
+    com.unity.inputsystem@1.17.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.inputsystem@02433b2481ab)
+    com.unity.mathematics@1.3.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.xr.core-utils@2.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.core-utils@f0450cbac8d6)
+    com.unity.xr.management@4.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.management@574ebfb1e976)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.test-framework@24afccc4ed24)
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.ugui@2.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ugui@cdea37cdf817)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+GUID [f2da8d172ccb50f4590517cc1196c156] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/BUILD_LOG.md' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/BUILD_LOG.md' (current owner)
+Assigning a new guid.
+GUID [6261f5ff721793b44a57c23999919e11] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts' (current owner)
+Assigning a new guid.
+GUID [22e688795ea766e4abfef0e621ba87b7] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/BarracudaDirector.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/BarracudaDirector.cs' (current owner)
+Assigning a new guid.
+GUID [2eb82a71cadeb5541840ff714d507891] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/CageClassifier.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/CageClassifier.cs' (current owner)
+Assigning a new guid.
+GUID [f6a2a914e795bc2469d710c577302aec] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/ClamPearlGuardConfig.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/ClamPearlGuardConfig.cs' (current owner)
+Assigning a new guid.
+GUID [863f545c96330f64fa37c33f4659741e] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/ClamRenderer.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/ClamRenderer.cs' (current owner)
+Assigning a new guid.
+GUID [94edc49273cdead4790227ca442a22a7] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/CurlEstimator.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/CurlEstimator.cs' (current owner)
+Assigning a new guid.
+GUID [eda970c5ca10f9e418285fa11372429f] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/Editor' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/Editor' (current owner)
+Assigning a new guid.
+GUID [2527243cb71a35f47bbe0767d93247e2] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/Editor/AcceptanceTests.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/Editor/AcceptanceTests.cs' (current owner)
+Assigning a new guid.
+GUID [57a90e27afde11c4b814d0187d9ed314] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/FeedbackDirector.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/FeedbackDirector.cs' (current owner)
+Assigning a new guid.
+GUID [37fd40e64aaddd2419fcf99bbe1356a1] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PalmFrame.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PalmFrame.cs' (current owner)
+Assigning a new guid.
+GUID [707901d43d26f194089bb259299d0722] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PearlRegistration.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PearlRegistration.cs' (current owner)
+Assigning a new guid.
+GUID [6e87a2a22abcfd7468a519333cf3feaa] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PearlState.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PearlState.cs' (current owner)
+Assigning a new guid.
+GUID [761920ee2a55b494581c9918b22826c5] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/SessionFSM.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/SessionFSM.cs' (current owner)
+Assigning a new guid.
+GUID [d09ab91edbcece545be7301e0763a2e7] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/SunCharger.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/SunCharger.cs' (current owner)
+Assigning a new guid.
+GUID [8227cad89a7e7f24980610a71318a706] for asset 'Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/TideDirector.cs' conflicts with:
+  'Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/TideDirector.cs' (current owner)
+Assigning a new guid.
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+ExitCode: 4 Duration: 1s564ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (1.48 seconds), 0 items updated, 11 evaluated
+ExitCode: 0 Duration: 0s605ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+ExitCode: 3 Duration: 1s179ms
+Finished compiling graph: 782 nodes, 14024 flattened edges (12210 ToBuild, 158 ToUse), maximum node priority 813
+[441/779    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[             ] Cannot trust contents of `Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamPearlGuardRig.cs` because its timestamp is in the future. Any node with this file as input will rebuild until the timestamp of the file is no longer newer than local machine time.
+[773/779    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+##### CommandLine
+"C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\NetCoreRuntime\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
+##### Contents of Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.rsp
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+-define:UNITY_6000_0_64
+-define:UNITY_6000_0
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_AMD
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER
+-define:PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.EmbreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.InAppPurchasingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.LevelPlayModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SafeModeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SketchUpModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.TreeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEditor.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.ai.agentbridge.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.ai.agentbridge.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.ai.agentbridge.telemetry.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.DepthAPI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.BuildingBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.AIToolsSetup.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.BuildingBlocks.AIBlocks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Callbacks.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.EditorCoroutine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.About.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.Nux.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Guide.Welcome.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Id.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.MetaXROperator.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.PlayCompanion.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Reflection.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.RemoteContent.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Settings.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.StatusMenu.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.Tags.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.TelemetryUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.ToolingSupport.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UPST.Notifications.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Editor.UserInterface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.EnvironmentDepth.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.FovSimulator.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.Guides.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.HandReadinessTool.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.DevAgent.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.DevAgent.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.Interface.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.ImmersiveDebugger.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/meta.xr.json.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MetaWand.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Fusion.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.NGO.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.MultiplayerBlocks.Shared.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.RuntimeOptimizer.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.RuntimeOptimizer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Meta.XR.RuntimeOptimizer.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/MetaXRSimulatorCore.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Oculus.VR.Scripts.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Analytics.Hooks.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Hands.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/BarracudaDirector.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/CageClassifier.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/ClamPearlGuardConfig.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/ClamPearlGuardRenderer.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/ClamRenderer.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/clam_pearl_guardRig.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/CurlEstimator.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/FeedbackDirector.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PalmFrame.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PearlRegistration.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/PearlState.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/SessionFSM.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/SunCharger.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/clam_pearl_guard/Scripts/TideDirector.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/BarracudaDirector.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/CageClassifier.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/ClamPearlGuardConfig.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/ClamPearlGuardRig.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/ClamRenderer.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/CurlEstimator.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/FeedbackDirector.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PalmFrame.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PearlRegistration.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/PearlState.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/SessionFSM.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/SunCharger.cs"
+"Assets/Games/4_1a_true_spheres_pinch_scale/socket_trackball/Scripts/TideDirector.cs"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
+##### Custom Environment Variables
+DOTNET_MULTILEVEL_LOOKUP=0
+##### ExitCode
+1
+##### Output
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'BarracudaDirector'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CageClassifier'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(7,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'ClamRenderer'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CurlEstimator'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'FeedbackDirector'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PalmFrame'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlRegistration'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlState'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SessionFSM'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SunCharger'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'TideDirector'
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(19,21): error CS0111: Type 'PearlRegistration' already defines a member called 'FitSphere' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(43,21): error CS0111: Type 'PearlRegistration' already defines a member called 'UpdateOffset' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(50,21): error CS0111: Type 'PearlRegistration' already defines a member called 'CheckShiftAndDrop' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(64,21): error CS0111: Type 'PearlRegistration' already defines a member called 'ResetDrop' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(70,21): error CS0111: Type 'PearlRegistration' already defines a member called 'SetInitialPosition' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(17,21): error CS0111: Type 'PearlState' already defines a member called 'AddScore' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(18,21): error CS0111: Type 'PearlState' already defines a member called 'TakeDamage' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(19,21): error CS0111: Type 'PearlState' already defines a member called 'AddCharge' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(20,21): error CS0111: Type 'PearlState' already defines a member called 'SetShield' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(22,21): error CS0111: Type 'PearlState' already defines a member called 'Reset' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(20,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'StartStrike' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(26,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'UpdateTimer' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(43,29): error CS0111: Type 'BarracudaDirector' already defines a member called 'ResolveStrike' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(20,21): error CS0111: Type 'SessionFSM' already defines a member called 'ChangeState' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(25,21): error CS0111: Type 'SessionFSM' already defines a member called 'Reset' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(44,21): error CS0111: Type 'SunCharger' already defines a member called 'UpdateCharge' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(57,21): error CS0111: Type 'SunCharger' already defines a member called 'Reset' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(12,21): error CS0111: Type 'TideDirector' already defines a member called 'AdvanceTide' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(17,21): error CS0111: Type 'TideDirector' already defines a member called 'UpdateTide' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(22,21): error CS0111: Type 'TideDirector' already defines a member called 'Reset' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(22,21): error CS0111: Type 'CageClassifier' already defines a member called 'Evaluate' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(80,21): error CS0111: Type 'CageClassifier' already defines a member called 'ResetState' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(16,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetShellOpenness' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(21,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetOcclusion' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(15,21): error CS0111: Type 'CurlEstimator' already defines a member called 'SetFistCalibration' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(33,21): error CS0111: Type 'CurlEstimator' already defines a member called 'UpdateCurls' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(10,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'PlayCue' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(15,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'SetDucking' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(17,21): error CS0111: Type 'PalmFrame' already defines a member called 'UpdatePalm' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(54,21): error CS0111: Type 'PalmFrame' already defines a member called 'ResetDrop' with the same parameter types
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(7,17): error CS0246: The type or namespace name 'PalmFrame' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(8,17): error CS0246: The type or namespace name 'PearlRegistration' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(9,17): error CS0246: The type or namespace name 'CurlEstimator' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(10,17): error CS0246: The type or namespace name 'CageClassifier' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(11,17): error CS0246: The type or namespace name 'SunCharger' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(12,17): error CS0246: The type or namespace name 'BarracudaDirector' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(13,17): error CS0246: The type or namespace name 'PearlState' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(15,17): error CS0246: The type or namespace name 'TideDirector' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(16,17): error CS0246: The type or namespace name 'FeedbackDirector' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(17,17): error CS0246: The type or namespace name 'SessionFSM' could not be found (are you missing a using directive or an assembly reference?)
+*** Tundra build failed (1.12 seconds), 2 items updated, 779 evaluated
+## Script Compilation Error for: Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+## CmdLine: "C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\NetCoreRuntime\dotnet.exe" exec "C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/DotNetSdkRoslyn/csc.dll" /nostdlib /noconfig /shared "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp" "@Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2"
+## Output:
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'BarracudaDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CageClassifier'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(7,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'ClamRenderer'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CurlEstimator'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'FeedbackDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PalmFrame'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlRegistration'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlState'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SessionFSM'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SunCharger'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'TideDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(19,21): error CS0111: Type 'PearlRegistration' already defines a member called 'FitSphere' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(43,21): error CS0111: Type 'PearlRegistration' already defines a member called 'UpdateOffset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(50,21): error CS0111: Type 'PearlRegistration' already defines a member called 'CheckShiftAndDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(64,21): error CS0111: Type 'PearlRegistration' already defines a member called 'ResetDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(70,21): error CS0111: Type 'PearlRegistration' already defines a member called 'SetInitialPosition' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(17,21): error CS0111: Type 'PearlState' already defines a member called 'AddScore' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(18,21): error CS0111: Type 'PearlState' already defines a member called 'TakeDamage' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(19,21): error CS0111: Type 'PearlState' already defines a member called 'AddCharge' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(20,21): error CS0111: Type 'PearlState' already defines a member called 'SetShield' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(22,21): error CS0111: Type 'PearlState' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(20,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'StartStrike' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(26,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'UpdateTimer' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(43,29): error CS0111: Type 'BarracudaDirector' already defines a member called 'ResolveStrike' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(20,21): error CS0111: Type 'SessionFSM' already defines a member called 'ChangeState' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(25,21): error CS0111: Type 'SessionFSM' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(44,21): error CS0111: Type 'SunCharger' already defines a member called 'UpdateCharge' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(57,21): error CS0111: Type 'SunCharger' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(12,21): error CS0111: Type 'TideDirector' already defines a member called 'AdvanceTide' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(17,21): error CS0111: Type 'TideDirector' already defines a member called 'UpdateTide' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(22,21): error CS0111: Type 'TideDirector' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(22,21): error CS0111: Type 'CageClassifier' already defines a member called 'Evaluate' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(80,21): error CS0111: Type 'CageClassifier' already defines a member called 'ResetState' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(16,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetShellOpenness' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(21,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetOcclusion' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(15,21): error CS0111: Type 'CurlEstimator' already defines a member called 'SetFistCalibration' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(33,21): error CS0111: Type 'CurlEstimator' already defines a member called 'UpdateCurls' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(10,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'PlayCue' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(15,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'SetDucking' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(17,21): error CS0111: Type 'PalmFrame' already defines a member called 'UpdatePalm' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(54,21): error CS0111: Type 'PalmFrame' already defines a member called 'ResetDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(7,17): error CS0246: The type or namespace name 'PalmFrame' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(8,17): error CS0246: The type or namespace name 'PearlRegistration' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(9,17): error CS0246: The type or namespace name 'CurlEstimator' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(10,17): error CS0246: The type or namespace name 'CageClassifier' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(11,17): error CS0246: The type or namespace name 'SunCharger' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(12,17): error CS0246: The type or namespace name 'BarracudaDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(13,17): error CS0246: The type or namespace name 'PearlState' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(15,17): error CS0246: The type or namespace name 'TideDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(16,17): error CS0246: The type or namespace name 'FeedbackDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(17,17): error CS0246: The type or namespace name 'SessionFSM' could not be found (are you missing a using directive or an assembly reference?)
+
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'BarracudaDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CageClassifier'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(7,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'ClamRenderer'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'CurlEstimator'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'FeedbackDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PalmFrame'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlRegistration'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'PearlState'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SessionFSM'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'SunCharger'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(5,18): error CS0101: The namespace 'XRGames.Chapter4.ClamPearlGuard' already contains a definition for 'TideDirector'
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(19,21): error CS0111: Type 'PearlRegistration' already defines a member called 'FitSphere' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(43,21): error CS0111: Type 'PearlRegistration' already defines a member called 'UpdateOffset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(50,21): error CS0111: Type 'PearlRegistration' already defines a member called 'CheckShiftAndDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(64,21): error CS0111: Type 'PearlRegistration' already defines a member called 'ResetDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlRegistration.cs(70,21): error CS0111: Type 'PearlRegistration' already defines a member called 'SetInitialPosition' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(17,21): error CS0111: Type 'PearlState' already defines a member called 'AddScore' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(18,21): error CS0111: Type 'PearlState' already defines a member called 'TakeDamage' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(19,21): error CS0111: Type 'PearlState' already defines a member called 'AddCharge' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(20,21): error CS0111: Type 'PearlState' already defines a member called 'SetShield' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PearlState.cs(22,21): error CS0111: Type 'PearlState' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(20,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'StartStrike' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(26,21): error CS0111: Type 'BarracudaDirector' already defines a member called 'UpdateTimer' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\BarracudaDirector.cs(43,29): error CS0111: Type 'BarracudaDirector' already defines a member called 'ResolveStrike' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(20,21): error CS0111: Type 'SessionFSM' already defines a member called 'ChangeState' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SessionFSM.cs(25,21): error CS0111: Type 'SessionFSM' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(44,21): error CS0111: Type 'SunCharger' already defines a member called 'UpdateCharge' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\SunCharger.cs(57,21): error CS0111: Type 'SunCharger' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(12,21): error CS0111: Type 'TideDirector' already defines a member called 'AdvanceTide' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(17,21): error CS0111: Type 'TideDirector' already defines a member called 'UpdateTide' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\TideDirector.cs(22,21): error CS0111: Type 'TideDirector' already defines a member called 'Reset' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(22,21): error CS0111: Type 'CageClassifier' already defines a member called 'Evaluate' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CageClassifier.cs(80,21): error CS0111: Type 'CageClassifier' already defines a member called 'ResetState' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(16,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetShellOpenness' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\ClamRenderer.cs(21,21): error CS0111: Type 'ClamRenderer' already defines a member called 'SetOcclusion' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(15,21): error CS0111: Type 'CurlEstimator' already defines a member called 'SetFistCalibration' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\CurlEstimator.cs(33,21): error CS0111: Type 'CurlEstimator' already defines a member called 'UpdateCurls' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(10,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'PlayCue' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\FeedbackDirector.cs(15,21): error CS0111: Type 'FeedbackDirector' already defines a member called 'SetDucking' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(17,21): error CS0111: Type 'PalmFrame' already defines a member called 'UpdatePalm' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\socket_trackball\Scripts\PalmFrame.cs(54,21): error CS0111: Type 'PalmFrame' already defines a member called 'ResetDrop' with the same parameter types
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(7,17): error CS0246: The type or namespace name 'PalmFrame' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(8,17): error CS0246: The type or namespace name 'PearlRegistration' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(9,17): error CS0246: The type or namespace name 'CurlEstimator' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(10,17): error CS0246: The type or namespace name 'CageClassifier' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(11,17): error CS0246: The type or namespace name 'SunCharger' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(12,17): error CS0246: The type or namespace name 'BarracudaDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(13,17): error CS0246: The type or namespace name 'PearlState' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(15,17): error CS0246: The type or namespace name 'TideDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(16,17): error CS0246: The type or namespace name 'FeedbackDirector' could not be found (are you missing a using directive or an assembly reference?)
+Assets\Games\4_1a_true_spheres_pinch_scale\clam_pearl_guard\Scripts\clam_pearl_guardRig.cs(17,17): error CS0246: The type or namespace name 'SessionFSM' could not be found (are you missing a using directive or an assembly reference?)
+AssetDatabase: script compilation time: 5.048183s
+Scripts have compiler errors.
+Exiting without the bug reporter. Application will terminate with return code 1

@@ -1,0 +1,16 @@
+# fusion_core_stabilizer build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_07_fusion_core_stabilizer.md
+- classes:
+  - FusionCoreStabilizerConfig: constants, separation limits, instability rates
+  - PalmRig: palm positions, separation, palm axis
+  - ContainmentModel: pressure mapping ((30-d)/8), phase coherence (cos wrap), instability rates, grace breach
+  - PulseDirector: pulse scoring, perfect streak, 15% band widening
+  - ReactorModel: power output ramp and breach
+  - StarRig: visual core brightness and radius driven by M
+  - ArcHUD: gauge states
+  - BurnDirector: burns and score
+  - FusionCoreStabilizerRig: MonoBehaviour runtime component
+- constants source: FusionCoreStabilizerConfig fields
+- tests automated: 13 items (Test01..Test12, Test14), NeedsDevice: 1 item (Test13)
+- honest limitations / assumptions: Core physics verified in EditMode; runtime rig connects to Meta XR hands.

@@ -1,0 +1,221 @@
+{
+    "Timestamp": "2026-11-13T04:35:16",
+    "TotalTested": 15,
+    "Passed": 15,
+    "Failed": 0,
+    "Results": [
+        {
+            "Slug": "socket_trackball",
+            "Chapter": "4.1a",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_socket_trackball_01_approach_desk.png",
+                "ux_socket_trackball_02_rolling_interaction.png",
+                "ux_socket_trackball_03_high_velocity_flick.png"
+            ],
+            "Notes": [
+                "Socket chassis grounding exact at Y=0.00m; equator stripe confirms smooth rolling across rotation axes."
+            ]
+        },
+        {
+            "Slug": "bernoulli_levitator",
+            "Chapter": "4.1a",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_bernoulli_levitator_01_approach_nozzle.png",
+                "ux_bernoulli_levitator_02_gust_levitation_equilibrium.png",
+                "ux_bernoulli_levitator_03_pinch_valve_altitude_rise.png"
+            ],
+            "Notes": [
+                "Bernoulli levitation equilibrium matches fluid drag balance; pinch height modulation tracks cleanly."
+            ]
+        },
+        {
+            "Slug": "mystic_seer",
+            "Chapter": "4.1b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_mystic_seer_01_dormant_crystal.png",
+                "ux_mystic_seer_02_palm_proximity_aura.png",
+                "ux_mystic_seer_03_omen_vision_reveal.png"
+            ],
+            "Notes": [
+                "Palm proximity threshold triggers smooth auric glow; scrying core illumination is distinct and readable."
+            ]
+        },
+        {
+            "Slug": "atlas_defense",
+            "Chapter": "4.1b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_atlas_defense_01_peaceful_orbit.png",
+                "ux_atlas_defense_02_missile_threat_incoming.png",
+                "ux_atlas_defense_03_orbital_shield_flare.png"
+            ],
+            "Notes": [
+                "Orbital shield intercept tracks along latitude coordinates; visual shield flare provides instant strike feedback."
+            ]
+        },
+        {
+            "Slug": "weeble_sumo",
+            "Chapter": "4.2",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_weeble_sumo_01_upright_stance.png",
+                "ux_weeble_sumo_02_lunge_push.png",
+                "ux_weeble_sumo_03_rebound_wobble.png"
+            ],
+            "Notes": [
+                "Ground-contact pivot ensures 0mm tabletop penetration during tilt; self-righting restoring torque verified."
+            ]
+        },
+        {
+            "Slug": "bobsled_chute",
+            "Chapter": "4.2",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_bobsled_chute_01_start_gate.png",
+                "ux_bobsled_chute_02_banked_curve_turn.png",
+                "ux_bobsled_chute_03_magnetic_brake_zone.png"
+            ],
+            "Notes": [
+                "Chute banking roll angle tracks centrifugal vector; track containment prevents derailment."
+            ]
+        },
+        {
+            "Slug": "worry_stone_spirit",
+            "Chapter": "4.2",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_worry_stone_spirit_01_resting_talisman.png",
+                "ux_worry_stone_spirit_02_thumb_friction_rub.png",
+                "ux_worry_stone_spirit_03_spirit_resonance_ignition.png"
+            ],
+            "Notes": [
+                "Oblate surface curvature supports ergonomic thumb sweep; friction thermal model triggers spirit glow."
+            ]
+        },
+        {
+            "Slug": "phantom_shell_game",
+            "Chapter": "4.3a",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_phantom_shell_game_01_resting_cups.png",
+                "ux_phantom_shell_game_02_sliding_shuffle.png",
+                "ux_phantom_shell_game_03_lift_reveal.png"
+            ],
+            "Notes": [
+                "Shell base perfectly grounded at Y=0.00m; occlusion hides pearl completely during shuffle."
+            ]
+        },
+        {
+            "Slug": "micro_wok_toss",
+            "Chapter": "4.3a",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_micro_wok_toss_01_resting_wok.png",
+                "ux_micro_wok_toss_02_wrist_flick_toss.png",
+                "ux_micro_wok_toss_03_centered_catch.png"
+            ],
+            "Notes": [
+                "Wrist acceleration profiles catch window; parabolic bead trajectory lands in sweet spot."
+            ]
+        },
+        {
+            "Slug": "galaxy_cauldron",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_galaxy_cauldron_01_quiescent_broth.png",
+                "ux_galaxy_cauldron_02_active_nebula_stir.png",
+                "ux_galaxy_cauldron_03_star_vortex_ignition.png"
+            ],
+            "Notes": [
+                "Stir speed tracking matches 220 mm/s resonance band; star vortex accretion disk emits distinct illumination."
+            ]
+        },
+        {
+            "Slug": "medusa_jellyfish",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_medusa_jellyfish_01_trench_drift.png",
+                "ux_medusa_jellyfish_02_palm_bell_contraction.png",
+                "ux_medusa_jellyfish_03_jet_propulsion_ascent.png",
+                "ux_medusa_jellyfish_04_steering_dodge_mine.png"
+            ],
+            "Notes": [
+                "Dual-palm compression triggers snappy jet propulsion; 70mm ascent height and bubble wake verified."
+            ]
+        },
+        {
+            "Slug": "kraken_broth",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_kraken_broth_01_storm_sea_ships.png",
+                "ux_kraken_broth_02_fingertip_drum_charge.png",
+                "ux_kraken_broth_03_tentacle_sector_slam.png"
+            ],
+            "Notes": [
+                "Quadrant belly band strike charges accurately; 90-degree sector slam destroys targeted enemy ships."
+            ]
+        },
+        {
+            "Slug": "foghorn_buoy",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_foghorn_buoy_01_upright_beacon.png",
+                "ux_foghorn_buoy_02_swell_tilt_warning.png",
+                "ux_foghorn_buoy_03_counter_press_restoration.png",
+                "ux_foghorn_buoy_04_foghorn_shark_repel.png"
+            ],
+            "Notes": [
+                "Inverted pendulum rocking is self-stabilizing; counter-press authority feels responsive; foghorn repels hazards."
+            ]
+        },
+        {
+            "Slug": "buckler_deflector",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_buckler_deflector_01_guard_stance.png",
+                "ux_buckler_deflector_02_fireball_cavity_capture.png",
+                "ux_buckler_deflector_03_swirling_captive_motes.png",
+                "ux_buckler_deflector_04_wrist_flick_beam_release.png"
+            ],
+            "Notes": [
+                "Beam correctly inherits buckler local normal axis; 440 deg/s mote orbit and flick release feel punchy."
+            ]
+        },
+        {
+            "Slug": "singing_bowl_sanctuary",
+            "Chapter": "4.3b",
+            "Passed": true,
+            "AvgStepMs": 0.0,
+            "Screenshots": [
+                "ux_singing_bowl_sanctuary_01_silent_bowl.png",
+                "ux_singing_bowl_sanctuary_02_rim_friction_trace.png",
+                "ux_singing_bowl_sanctuary_03_acoustic_standing_wave.png"
+            ],
+            "Notes": [
+                "Friction angular tracing matches acoustic excitation threshold; harmonic standing wave visual is meditative."
+            ]
+        }
+    ]
+}

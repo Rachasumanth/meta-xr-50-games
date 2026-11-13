@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="39" result="Skipped:Ignored" total="39" passed="34" failed="0" inconclusive="0" skipped="5" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.1361056">
+  <test-suite type="TestSuite" id="1000" name="MetaXRSim" fullname="MetaXRSim" runstate="Runnable" testcasecount="39" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.136106" total="39" passed="34" failed="0" inconclusive="0" skipped="5" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <reason>
+      <message><![CDATA[One or more child tests were ignored]]></message>
+    </reason>
+    <test-suite type="Assembly" id="1043" name="Assembly-CSharp-Editor.dll" fullname="C:/Users/Administrator/UnityProjects/MetaXRSim/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" runstate="Runnable" testcasecount="39" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.122912" total="39" passed="34" failed="0" inconclusive="0" skipped="5" asserts="0">
+      <properties>
+        <property name="_PID" value="6612" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <reason>
+        <message><![CDATA[One or more child tests were ignored]]></message>
+      </reason>
+      <test-suite type="TestSuite" id="1044" name="XRGames" fullname="XRGames" runstate="Runnable" testcasecount="39" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.121777" total="39" passed="34" failed="0" inconclusive="0" skipped="5" asserts="0">
+        <properties />
+        <reason>
+          <message><![CDATA[One or more child tests were ignored]]></message>
+        </reason>
+        <test-suite type="TestSuite" id="1045" name="C4_1A" fullname="XRGames.C4_1A" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.088359" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1046" name="SocketTrackball" fullname="XRGames.C4_1A.SocketTrackball" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.087712" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1047" name="Editor" fullname="XRGames.C4_1A.SocketTrackball.Editor" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.086921" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1001" name="AcceptanceTests" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.084672" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1002" name="Test01_RadiusFit" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test01_RadiusFit" methodname="Test01_RadiusFit" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="248624117" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.022695" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1003" name="Test02_CrownGate" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test02_CrownGate" methodname="Test02_CrownGate" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1305319572" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.008116" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1004" name="Test03_DeadZone" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test03_DeadZone" methodname="Test03_DeadZone" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1855650360" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.003314" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1005" name="Test04_RollingLaw" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test04_RollingLaw" methodname="Test04_RollingLaw" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="512350516" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.002783" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1006" name="Test05_SlipClamp" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test05_SlipClamp" methodname="Test05_SlipClamp" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="134994486" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.001137" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1007" name="Test06_GripDamping" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test06_GripDamping" methodname="Test06_GripDamping" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1428047457" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000727" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1008" name="Test07_GripRestore" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test07_GripRestore" methodname="Test07_GripRestore" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="492914991" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000507" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1009" name="Test08_Collision" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test08_Collision" methodname="Test08_Collision" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1564023171" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000808" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1010" name="Test09_NearMiss" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test09_NearMiss" methodname="Test09_NearMiss" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1565642689" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000572" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1011" name="Test10_GatePass" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test10_GatePass" methodname="Test10_GatePass" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="999579667" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000411" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1012" name="Test11_Occlusion" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test11_Occlusion" methodname="Test11_Occlusion" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="2051135490" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000137" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1013" name="Test12_FrameBudget" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test12_FrameBudget" methodname="Test12_FrameBudget" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="702556222" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000101" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1014" name="Test13_Recovery" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test13_Recovery" methodname="Test13_Recovery" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1442201836" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000093" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1015" name="Test14_SessionEndurance" fullname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests.Test14_SessionEndurance" methodname="Test14_SessionEndurance" classname="XRGames.C4_1A.SocketTrackball.Editor.AcceptanceTests" runstate="Runnable" seed="1095289065" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000082" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="1048" name="Chapter4" fullname="XRGames.Chapter4" runstate="Runnable" testcasecount="25" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.032704" total="25" passed="20" failed="0" inconclusive="0" skipped="5" asserts="0">
+          <properties />
+          <reason>
+            <message><![CDATA[One or more child tests were ignored]]></message>
+          </reason>
+          <test-suite type="TestSuite" id="1051" name="BernoulliLevitator" fullname="XRGames.Chapter4.BernoulliLevitator" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.013261" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestSuite" id="1052" name="Editor" fullname="XRGames.Chapter4.BernoulliLevitator.Editor" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.012325" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-suite type="TestFixture" id="1031" name="AcceptanceTests" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.011263" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1032" name="Test01_SphereFit" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test01_SphereFit" methodname="Test01_SphereFit" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="1072035150" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.002700" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1033" name="Test02_PinchThresholds" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test02_PinchThresholds" methodname="Test02_PinchThresholds" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="1663969849" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.001497" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1034" name="Test03_HeightMapping" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test03_HeightMapping" methodname="Test03_HeightMapping" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="2112892151" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000558" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1035" name="Test05_NoTeleport" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test05_NoTeleport" methodname="Test05_NoTeleport" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="387833741" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000367" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1036" name="Test06_Spin" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test06_Spin" methodname="Test06_Spin" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="350865905" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000774" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1037" name="Test07_SlipClamp" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test07_SlipClamp" methodname="Test07_SlipClamp" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="369139050" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000289" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1038" name="Test08_RingPass" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test08_RingPass" methodname="Test08_RingPass" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="1375294875" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000236" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1039" name="Test09_PerfectBonus" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test09_PerfectBonus" methodname="Test09_PerfectBonus" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="298102645" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000220" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1040" name="Test10_ReleaseAndCatch" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test10_ReleaseAndCatch" methodname="Test10_ReleaseAndCatch" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="2121190063" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000719" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1041" name="Test11_ReleaseFailure" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test11_ReleaseFailure" methodname="Test11_ReleaseFailure" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="105807475" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000284" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1042" name="Test13_FrameBudget" fullname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests.Test13_FrameBudget" methodname="Test13_FrameBudget" classname="XRGames.Chapter4.BernoulliLevitator.Editor.AcceptanceTests" runstate="Runnable" seed="1404976772" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000876" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+          <test-suite type="TestSuite" id="1049" name="ClamPearlGuard" fullname="XRGames.Chapter4.ClamPearlGuard" runstate="Runnable" testcasecount="14" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.018118" total="14" passed="9" failed="0" inconclusive="0" skipped="5" asserts="0">
+            <properties />
+            <reason>
+              <message><![CDATA[One or more child tests were ignored]]></message>
+            </reason>
+            <test-suite type="TestSuite" id="1050" name="Editor" fullname="XRGames.Chapter4.ClamPearlGuard.Editor" runstate="Runnable" testcasecount="14" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.017304" total="14" passed="9" failed="0" inconclusive="0" skipped="5" asserts="0">
+              <properties />
+              <reason>
+                <message><![CDATA[One or more child tests were ignored]]></message>
+              </reason>
+              <test-suite type="TestFixture" id="1016" name="AcceptanceTests" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" testcasecount="14" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.016283" total="14" passed="9" failed="0" inconclusive="0" skipped="5" asserts="0">
+                <properties />
+                <reason>
+                  <message><![CDATA[One or more child tests were ignored]]></message>
+                </reason>
+                <test-case id="1017" name="Test01_SphereFit" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test01_SphereFit" methodname="Test01_SphereFit" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1150886221" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.001188" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1018" name="Test02_PalmLock_Deferred" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test02_PalmLock_Deferred" methodname="Test02_PalmLock_Deferred" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="694879807" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.005709" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Deferred: Requires physical Meta XR device and hand tracking.]]></message>
+                  </reason>
+                </test-case>
+                <test-case id="1019" name="Test03_Openness" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test03_Openness" methodname="Test03_Openness" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="246915438" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000586" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1020" name="Test04_ChargeRate" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test04_ChargeRate" methodname="Test04_ChargeRate" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1856537758" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000474" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1021" name="Test05_TiltFocus" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test05_TiltFocus" methodname="Test05_TiltFocus" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1541506451" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000430" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1022" name="Test06_CageThreshold" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test06_CageThreshold" methodname="Test06_CageThreshold" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1514530552" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.001328" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1023" name="Test07_ClosureWindow" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test07_ClosureWindow" methodname="Test07_ClosureWindow" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="216057728" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000458" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1024" name="Test08_BiteTiming" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test08_BiteTiming" methodname="Test08_BiteTiming" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="717755022" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000380" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1025" name="Test09_NoPhantomBite_Deferred" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test09_NoPhantomBite_Deferred" methodname="Test09_NoPhantomBite_Deferred" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1814076275" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000379" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Deferred: Requires physical tracking drop simulation.]]></message>
+                  </reason>
+                </test-case>
+                <test-case id="1026" name="Test10_Occlusion_Deferred" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test10_Occlusion_Deferred" methodname="Test10_Occlusion_Deferred" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="1502692962" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000293" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Deferred: Requires XR camera rendering and shaders.]]></message>
+                  </reason>
+                </test-case>
+                <test-case id="1027" name="Test11_DropDetection" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test11_DropDetection" methodname="Test11_DropDetection" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="66103964" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000602" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1028" name="Test12_FrameBudget_Deferred" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test12_FrameBudget_Deferred" methodname="Test12_FrameBudget_Deferred" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="172674557" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000305" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Deferred: Requires Unity GPU profiling.]]></message>
+                  </reason>
+                </test-case>
+                <test-case id="1029" name="Test13_SessionEndurance_Deferred" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test13_SessionEndurance_Deferred" methodname="Test13_SessionEndurance_Deferred" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="2037910016" result="Skipped" label="Ignored" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000253" asserts="0">
+                  <properties>
+                    <property name="Category" value="NeedsDevice" />
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <reason>
+                    <message><![CDATA[Deferred: Requires 7 min runtime execution.]]></message>
+                  </reason>
+                </test-case>
+                <test-case id="1030" name="Test14_Accessibility" fullname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests.Test14_Accessibility" methodname="Test14_Accessibility" classname="XRGames.Chapter4.ClamPearlGuard.Editor.AcceptanceTests" runstate="Runnable" seed="2137074969" result="Passed" start-time="2026-11-12 10:40:29Z" end-time="2026-11-12 10:40:29Z" duration="0.000469" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                  <output><![CDATA[Saving results to: C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261112_104014.xml
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

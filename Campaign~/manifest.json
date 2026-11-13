@@ -1,0 +1,507 @@
+﻿{
+    "campaign":  "XR_Games_04",
+    "generated":  "2026-11-10T19:30:01.608667Z",
+    "quality_gate":  "unity_editmode_tests_no_cheat",
+    "games":  [
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_01_socket_trackball.md",
+                      "slug":  "socket_trackball",
+                      "title":  "Socket Trackball",
+                      "status":  "complete",
+                      "attempts":  2,
+                      "note":  "complete (run_20261110_215857 14/14); sources were accidentally overwritten by a mis-addressed fserve PUT (defaulted slug) and restored byte-exact from the gate-verified zip",
+                      "updated":  "2026-11-10T21:59:17"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_02_clam_pearl_guard.md",
+                      "slug":  "clam_pearl_guard",
+                      "title":  "Clam Pearl Guard",
+                      "status":  "complete",
+                      "attempts":  8,
+                      "note":  "run_20261110_232801 | PASS tests=14 passed=9",
+                      "updated":  "2026-11-10T23:28:21"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_03_bernoulli_levitator.md",
+                      "slug":  "bernoulli_levitator",
+                      "title":  "Bernoulli Levitator",
+                      "status":  "complete",
+                      "attempts":  6,
+                      "note":  "run_20261113_034717 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-13T03:47:37"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_04_micro_planet_scanner.md",
+                      "slug":  "micro_planet_scanner",
+                      "title":  "Micro-Planet Scanner",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_110931 | PASS tests=14 passed=12",
+                      "updated":  "2026-11-12T11:10:01"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_05_cage_pinball.md",
+                      "slug":  "cage_pinball",
+                      "title":  "Cage Pinball",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_120119 | PASS tests=14 passed=12",
+                      "updated":  "2026-11-12T12:01:39"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_06_ocular_turret.md",
+                      "slug":  "ocular-turret",
+                      "title":  "Ocular Turret",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_122010 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T12:20:30"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_07_fusion_core_stabilizer.md",
+                      "slug":  "fusion-core-stabilizer",
+                      "title":  "Fusion Core Stabilizer",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_122010 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T12:20:30"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_08_scarab_canyon.md",
+                      "slug":  "scarab-canyon",
+                      "title":  "Scarab Canyon",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_122010 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T12:20:30"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_09_chrono_sphere_scrub.md",
+                      "slug":  "chrono-sphere-scrub",
+                      "title":  "Chrono-Sphere Scrub",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_122010 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T12:20:30"
+                  },
+                  {
+                      "chapter":  "4_1a_true_spheres_pinch_scale",
+                      "file":  "game_10_electron_deflector.md",
+                      "slug":  "electron-deflector",
+                      "title":  "Electron Deflector",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_122010 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T12:20:30"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_01_atlas_defense.md",
+                      "slug":  "atlas_defense",
+                      "title":  "Atlas Defense",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_130828 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T13:08:48"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_02_pulse_core_reactor.md",
+                      "slug":  "pulse_core_reactor",
+                      "title":  "Pulse Core Reactor",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_130828 | PASS tests=14 passed=13",
+                      "updated":  "2026-11-12T13:08:49"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_03_katamari_harvest.md",
+                      "slug":  "katamari_harvest",
+                      "title":  "Katamari Harvest",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_130828 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:08:49"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_04_mystic_seer.md",
+                      "slug":  "mystic_seer",
+                      "title":  "Mystic Seer",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_130828 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:08:49"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_05_equatorial_particle_ring.md",
+                      "slug":  "equatorial_particle_ring",
+                      "title":  "Equatorial Particle Ring",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_130828 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:08:49"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_06_geyser_venting.md",
+                      "slug":  "geyser-venting",
+                      "title":  "Geyser Venting",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_133238 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:32:58"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_07_trench_run_globe.md",
+                      "slug":  "trench-run-globe",
+                      "title":  "Trench Run Globe",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_133238 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:32:58"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_08_containment_dribble.md",
+                      "slug":  "containment-dribble",
+                      "title":  "Containment Dribble",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_133238 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:32:58"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_09_bio_sphere_terraformer.md",
+                      "slug":  "bio-sphere-terraformer",
+                      "title":  "Bio-Sphere Terraformer",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_133238 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:32:58"
+                  },
+                  {
+                      "chapter":  "4_1b_true_spheres_palm_scale",
+                      "file":  "game_10_gyro_sphere_mech.md",
+                      "slug":  "gyro-sphere-mech",
+                      "title":  "Gyro-Sphere Mech",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_133238 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T13:32:58"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_01_sub_surface_hovercraft.md",
+                      "slug":  "sub_surface_hovercraft",
+                      "title":  "Sub-Surface Hovercraft",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_140052 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:01:22"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_02_weeble_sumo.md",
+                      "slug":  "weeble_sumo",
+                      "title":  "Weeble Sumo",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_140052 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:01:22"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_03_worry_stone_spirit.md",
+                      "slug":  "worry_stone_spirit",
+                      "title":  "Worry-Stone Spirit",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_140052 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:01:22"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_04_scarab_buckler.md",
+                      "slug":  "scarab_buckler",
+                      "title":  "Scarab Buckler",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_140052 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:01:22"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_05_bobsled_chute.md",
+                      "slug":  "bobsled_chute",
+                      "title":  "Bobsled Chute",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_140052 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:01:22"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_06_vortex_wobbler.md",
+                      "slug":  "vortex-wobbler",
+                      "title":  "Vortex Wobbler",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_142838 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:28:58"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_07_elliptical_orbit.md",
+                      "slug":  "elliptical-orbit",
+                      "title":  "Elliptical Orbit",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_142838 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:28:58"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_08_trilobite_march.md",
+                      "slug":  "trilobite-march",
+                      "title":  "Trilobite March",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_142838 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:28:58"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_09_phantom_stone_skipper.md",
+                      "slug":  "phantom-stone-skipper",
+                      "title":  "Phantom Stone Skipper",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_142838 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:28:58"
+                  },
+                  {
+                      "chapter":  "4_2_prolate_and_oblate_spheroids",
+                      "file":  "game_10_paddlewheel_pod.md",
+                      "slug":  "paddlewheel-pod",
+                      "title":  "Paddlewheel Pod",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_142838 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:28:58"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_01_phantom_shell_game.md",
+                      "slug":  "phantom_shell_game",
+                      "title":  "Phantom Shell Game",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_145221 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:52:51"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_02_micro_wok_toss.md",
+                      "slug":  "micro_wok_toss",
+                      "title":  "Micro-Wok Toss",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_145221 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:52:51"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_03_snapping_turtle_bunker.md",
+                      "slug":  "snapping_turtle_bunker",
+                      "title":  "Snapping Turtle Bunker",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_145221 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:52:51"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_04_deep_space_dish.md",
+                      "slug":  "deep_space_dish",
+                      "title":  "Deep-Space Dish",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_145221 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:52:51"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_05_bey_cap_clash.md",
+                      "slug":  "bey_cap_clash",
+                      "title":  "Bey-Cap Clash",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_145221 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T14:52:51"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_06_tardigrade_pond.md",
+                      "slug":  "tardigrade-pond",
+                      "title":  "Tardigrade Pond",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_151108 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:11:39"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_07_paratrooper_basket.md",
+                      "slug":  "paratrooper_basket",
+                      "title":  "Paratrooper Basket",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_151108 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:11:39"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_08_micro_mortar_alchemist.md",
+                      "slug":  "micro_mortar_alchemist",
+                      "title":  "Micro-Mortar Alchemist",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_151108 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:11:39"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_09_limpet_suction.md",
+                      "slug":  "limpet_suction",
+                      "title":  "Limpet Suction",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_151108 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:11:39"
+                  },
+                  {
+                      "chapter":  "4_3a_hemispheres_pinch_scale",
+                      "file":  "game_10_temple_bell.md",
+                      "slug":  "temple_bell",
+                      "title":  "Temple Bell",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_151108 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:11:39"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_01_galaxy_cauldron.md",
+                      "slug":  "galaxy_cauldron",
+                      "title":  "Galaxy Cauldron",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_153618 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:36:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_02_singing_bowl_sanctuary.md",
+                      "slug":  "singing_bowl_sanctuary",
+                      "title":  "Singing Bowl Sanctuary",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_153618 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:36:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_03_fingerboard_bowl.md",
+                      "slug":  "fingerboard_bowl",
+                      "title":  "Fingerboard Bowl",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_153618 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:36:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_04_observatory_dome.md",
+                      "slug":  "observatory_dome",
+                      "title":  "Observatory Dome",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_153618 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:36:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_05_medusa_jellyfish.md",
+                      "slug":  "medusa_jellyfish",
+                      "title":  "Medusa Jellyfish",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_153618 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T15:36:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_06_kraken_broth.md",
+                      "slug":  "kraken-broth",
+                      "title":  "Kraken Broth",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_165008 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T16:50:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_07_foghorn_buoy.md",
+                      "slug":  "foghorn_buoy",
+                      "title":  "Foghorn Buoy",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_165008 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T16:50:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_08_arecibo_reflector.md",
+                      "slug":  "arecibo_reflector",
+                      "title":  "Arecibo Reflector",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_165008 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T16:50:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_09_tortoise_bastion.md",
+                      "slug":  "tortoise_bastion",
+                      "title":  "Tortoise Bastion",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_165008 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T16:50:38"
+                  },
+                  {
+                      "chapter":  "4_3b_hemispheres_hand_scale",
+                      "file":  "game_10_buckler_deflector.md",
+                      "slug":  "buckler_deflector",
+                      "title":  "Buckler Deflector",
+                      "status":  "complete",
+                      "attempts":  0,
+                      "note":  "run_20261112_165008 | PASS tests=14 passed=14",
+                      "updated":  "2026-11-12T16:50:38"
+                  }
+              ]
+}

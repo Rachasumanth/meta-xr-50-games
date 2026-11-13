@@ -1,0 +1,20 @@
+# atlas_defense build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1b_true_spheres_palm_scale/game_01_atlas_defense.md
+- classes:
+  - AtlasDefenseConfig: globe dimensions, lock angles, concurrency cap
+  - PropTracker: sphere registration (76 mm / r=38), pose tracking
+  - ContactBus: joint contact enter/exit hysteresis
+  - RollKinematics: rolling law (omega = (n x vt)/r), 360 deg yaw coverage
+  - GlobeController: +/- 15 mm offset clamp, shield axis query
+  - MeteorDirector: 12-meteor waves, concurrency cap of 4
+  - ShieldSystem: 20/24 deg lock hysteresis, 250 ms hold, 25 deg intercept
+  - CityGrid: 5 cities, nearest query, damage/destruction
+  - ScoreCombo: intercept score, precision bonus, combo streak
+  - WaveStateMachine: defense state machine
+  - FeedbackRouter: particle budget management (cap 500)
+  - Compositor: occlusion and layer order
+  - AtlasDefenseRig: MonoBehaviour runtime component
+- constants source: AtlasDefenseConfig fields
+- tests automated: 13 items (Test01..Test13), NeedsDevice: 1 item (Test14)
+- honest limitations / assumptions: EditMode suite tests all mathematical laws and FSMs; runtime rig links to Meta XR SDK hands.

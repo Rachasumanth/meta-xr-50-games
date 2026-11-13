@@ -1,0 +1,39 @@
+[0m
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/BernoulliLevitatorConfig.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/BernoulliLevitatorConfig.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/NozzleFrame.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/NozzleFrame.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/BallRegistration.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/BallRegistration.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/PinchTracker.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/PinchTracker.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/HeightController.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/HeightController.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/SpinFusion.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/SpinFusion.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/OrbBody.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/OrbBody.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/RingField.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/RingField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/GustField.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/GustField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/PressureState.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/PressureState.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/WaveDirector.cs
+Wrote file successfully: Assets/Games/4_1a_true_spheres_pinch_scale/bernoulli_levitator/Scripts/WaveDirector.cs
+> build · gemini-3.5-flash-lite
+[93m[1m! [0mretrying (attempt 2): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[91m[1mError: [0mYou exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 30.356372357s.

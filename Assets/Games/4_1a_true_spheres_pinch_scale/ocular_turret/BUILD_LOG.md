@@ -1,0 +1,17 @@
+# ocular_turret build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_06_ocular_turret.md
+- classes:
+  - OcularTurretConfig: radius, speed clamp, heat and blink constants
+  - PropMarble: marble center fit, pose tracking
+  - RollIntegrator: tangential rotation law (7.2 deg/mm), speed clamp, drift blend
+  - GazeModel: gaze direction, beam heat accumulation, dissipation, blink lockout
+  - SocketModel: thumb/index separation, integrity pips (damage on dive)
+  - GargoylePool: 6 gargoyle instances, petrify meter, double-tap burst with cooldown
+  - BeamJudge: angular tolerance test (1.15 deg + radius), meter fill/decay
+  - VigilDirector: vigil wave levels, quota tracking
+  - OcularFeedback: particle budget management (cap 400)
+  - OcularTurretRig: MonoBehaviour runtime component
+- constants source: OcularTurretConfig fields
+- tests automated: 13 items (Test01..Test10, Test12..Test14), NeedsDevice: 1 item (Test11)
+- honest limitations / assumptions: Core mechanics tested in EditMode; runtime rig binds to headset and hand tracking.

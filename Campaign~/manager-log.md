@@ -1,0 +1,1 @@
+- [fserve] PUT without slug defaulted to socket_trackball and overwrote its sources; fserve v3 now rejects missing/unknown slugs; socket_trackball restored byte-exact from the gate-verified zip

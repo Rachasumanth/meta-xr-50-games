@@ -1,0 +1,20 @@
+# micro_planet_scanner build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_04_micro_planet_scanner.md
+- classes:
+  - MicroPlanetScannerConfig: spec numeric constants and tuning limits
+  - PropTracker: marble sphere fit, RMS error, prop pose tracking
+  - TripodGate: three-finger tripod contact gate with hysteresis on distance and angle
+  - RollFusion: per-contact angular velocity fusion, slip clamping, quaternion integration
+  - ScannerProjector: spherical latitude/longitude projection for right index targeting
+  - LockAccumulator: 8mm distance gate, 400ms lock accumulation, 1.5x drain
+  - WormField: worm instances, great-circle positions, burrow depth, core breach logic
+  - MoonState: corruption tracking, healing, chain multipliers, score
+  - HologramRenderer: 3.75x virtual moon scaling, core positioning
+  - WaveDirector: 5-wave survey progression, quotas, rest cycles
+  - FeedbackDirector: audio-visual cues and particle budget management
+  - SessionFSM: session phase state machine and timing
+  - MicroPlanetScannerRig: MonoBehaviour runtime component wiring core classes to Meta XR SDK
+- constants source: MicroPlanetScannerConfig fields
+- tests automated: 12 items (Test01..Test11, Test13), NeedsDevice: 2 items (Test12, Test14)
+- honest limitations / assumptions: Core algorithms fully verified in pure C# EditMode suite; runtime rig attaches to Meta XR hand tracking transforms and camera passthrough.

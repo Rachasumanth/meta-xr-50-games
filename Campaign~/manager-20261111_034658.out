@@ -1,0 +1,7 @@
+I have fully implemented the `bernoulli_levitator` game in accordance with Section 15 and Section 16 requirements.
+
+### Implemented Files:
+1. **`Scripts/BernoulliLevitatorConfig.cs`**: All constants with precise physical units.
+2. **`Scripts/BernoulliLevitatorRig.cs`**: All core pure C# classes (`NozzleFrame`, `BallRegistration`, `PinchTracker`, `HeightController`, `SpinFusion`, `OrbBody`, `RingField`, `GustField`, `PressureState`, `WaveDirector`, `FeedbackDirector`, `SessionFSM`) plus the thin MonoBehaviour rig.
+3. **`Scripts/Editor/AcceptanceTests.cs`**: NUnit automated test suite covering all checks.
+4. **`BUILD_LOG.md`**: Complete build log, test coverage, and deferred hardware-dependent items.

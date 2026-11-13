@@ -1,0 +1,306 @@
+[2026-11-10T20:55:47] gate start slugs=socket_trackball
+[2026-11-10T20:56:07] unity exit=1
+[2026-11-10T20:56:07] results xml missing
+[2026-11-10T20:56:07] slug=socket_trackball verdict=LINT: no AcceptanceTests.cs status=gate_fail
+[2026-11-10T20:56:07] gate done
+[2026-11-10T21:20:50] gate start slugs=socket_trackball
+[2026-11-10T21:22:21] unity exit=1
+[2026-11-10T21:22:21] results xml missing
+[2026-11-10T21:22:21] slug=socket_trackball verdict=no tests registered status=gate_fail
+[2026-11-10T21:22:21] gate done
+[2026-11-10T21:45:52] gate start slugs=socket_trackball
+[2026-11-10T21:46:42] unity exit=2
+[2026-11-10T21:46:42] slug=socket_trackball verdict=PASS tests=14 status=complete
+[2026-11-10T21:46:42] gate done
+[2026-11-10T21:58:57] gate start slugs=socket_trackball
+[2026-11-10T21:59:17] unity exit=0
+[2026-11-10T21:59:17] slug=socket_trackball verdict=PASS tests=14 passed=14 status=complete
+[2026-11-10T21:59:17] gate done
+[2026-11-10T22:54:20] gate start slugs=clam_pearl_guard
+[2026-11-10T22:54:30] unity exit=1
+[2026-11-10T22:54:30] results xml missing
+[2026-11-10T22:54:30] slug=clam_pearl_guard verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-10T22:54:30] gate done
+[2026-11-10T23:08:00] gate start slugs=clam_pearl_guard
+[2026-11-10T23:08:10] unity exit=1
+[2026-11-10T23:08:10] results xml missing
+[2026-11-10T23:08:10] slug=clam_pearl_guard verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-10T23:08:10] gate done
+[2026-11-10T23:21:48] gate start slugs=clam_pearl_guard
+[2026-11-10T23:22:08] unity exit=2
+[2026-11-10T23:22:08] slug=clam_pearl_guard verdict=tests failed=1 of 14 passed=8 status=gate_fail
+[2026-11-10T23:22:08] gate done
+[2026-11-10T23:28:01] gate start slugs=clam_pearl_guard
+[2026-11-10T23:28:21] unity exit=0
+[2026-11-10T23:28:21] slug=clam_pearl_guard verdict=PASS tests=14 passed=9 status=complete
+[2026-11-10T23:28:21] gate done
+[2026-11-12T10:30:54] gate start slugs=bernoulli_levitator
+[2026-11-12T10:31:34] unity exit=1
+[2026-11-12T10:31:34] results xml missing
+[2026-11-12T10:31:34] slug=bernoulli_levitator verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T10:31:34] gate done
+[2026-11-12T10:32:34] gate start slugs=bernoulli_levitator
+[2026-11-12T10:32:54] unity exit=1
+[2026-11-12T10:32:54] results xml missing
+[2026-11-12T10:32:54] slug=bernoulli_levitator verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T10:32:54] gate done
+[2026-11-12T10:35:36] gate start slugs=bernoulli_levitator
+[2026-11-12T10:36:36] unity exit=2
+[2026-11-12T10:36:36] slug=bernoulli_levitator verdict=tests failed=6 of 11 passed=5 status=gate_fail
+[2026-11-12T10:36:36] gate done
+[2026-11-12T10:39:06] gate start slugs=bernoulli_levitator
+[2026-11-12T10:39:37] unity exit=2
+[2026-11-12T10:39:37] slug=bernoulli_levitator verdict=tests failed=1 of 11 passed=10 status=gate_fail
+[2026-11-12T10:39:37] gate done
+[2026-11-12T10:40:14] gate start slugs=bernoulli_levitator
+[2026-11-12T10:40:44] unity exit=0
+[2026-11-12T10:40:44] slug=bernoulli_levitator verdict=PASS tests=11 passed=11 status=complete
+[2026-11-12T10:40:44] gate done
+[2026-11-12T11:09:31] gate start slugs=micro_planet_scanner
+[2026-11-12T11:10:01] unity exit=0
+[2026-11-12T11:10:01] slug=micro_planet_scanner verdict=PASS tests=14 passed=12 status=complete
+[2026-11-12T11:10:01] gate done
+[2026-11-12T11:58:37] gate start slugs=cage_pinball,ocular_turret,fusion_core_stabilizer
+[2026-11-12T11:59:07] unity exit=2
+[2026-11-12T11:59:07] slug=cage_pinball verdict=tests failed=1 of 14 passed=11 status=gate_fail
+[2026-11-12T11:59:07] slug=ocular_turret verdict=tests failed=1 of 14 passed=12 status=gate_fail
+[2026-11-12T11:59:07] slug=fusion_core_stabilizer verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T11:59:07] gate done
+[2026-11-12T12:01:19] gate start slugs=cage_pinball,ocular_turret,fusion_core_stabilizer
+[2026-11-12T12:01:39] unity exit=0
+[2026-11-12T12:01:39] slug=cage_pinball verdict=PASS tests=14 passed=12 status=complete
+[2026-11-12T12:01:39] slug=ocular_turret verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:01:39] slug=fusion_core_stabilizer verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:01:40] gate done
+[2026-11-12T12:18:17] gate start slugs=scarab_canyon,chrono_sphere_scrub,electron_deflector
+[2026-11-12T12:18:37] unity exit=0
+[2026-11-12T12:18:37] slug=scarab_canyon verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:18:37] slug=chrono_sphere_scrub verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:18:37] slug=electron_deflector verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:18:37] gate done
+[2026-11-12T12:20:10] gate start slugs=ocular_turret,fusion_core_stabilizer,scarab_canyon,chrono_sphere_scrub,electron_deflector
+[2026-11-12T12:20:30] unity exit=0
+[2026-11-12T12:20:30] slug=ocular_turret verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:20:30] slug=fusion_core_stabilizer verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:20:30] slug=scarab_canyon verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:20:30] slug=chrono_sphere_scrub verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:20:30] slug=electron_deflector verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T12:20:30] gate done
+[2026-11-12T12:57:50] gate start slugs=atlas_defense,pulse_core_reactor,katamari_harvest,mystic_seer,equatorial_particle_ring
+[2026-11-12T12:58:20] unity exit=2
+[2026-11-12T12:58:20] slug=atlas_defense verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T12:58:20] slug=pulse_core_reactor verdict=tests failed=1 of 14 passed=12 status=gate_fail
+[2026-11-12T12:58:20] slug=katamari_harvest verdict=tests failed=3 of 14 passed=11 status=gate_fail
+[2026-11-12T12:58:20] slug=mystic_seer verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T12:58:20] slug=equatorial_particle_ring verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T12:58:20] gate done
+[2026-11-12T13:06:37] gate start slugs=atlas_defense,pulse_core_reactor,katamari_harvest,mystic_seer,equatorial_particle_ring
+[2026-11-12T13:07:07] unity exit=2
+[2026-11-12T13:07:08] slug=atlas_defense verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:07:08] slug=pulse_core_reactor verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:07:08] slug=katamari_harvest verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:07:08] slug=mystic_seer verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:07:08] slug=equatorial_particle_ring verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:07:08] gate done
+[2026-11-12T13:08:28] gate start slugs=atlas_defense,pulse_core_reactor,katamari_harvest,mystic_seer,equatorial_particle_ring
+[2026-11-12T13:08:48] unity exit=0
+[2026-11-12T13:08:48] slug=atlas_defense verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T13:08:49] slug=pulse_core_reactor verdict=PASS tests=14 passed=13 status=complete
+[2026-11-12T13:08:49] slug=katamari_harvest verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:08:49] slug=mystic_seer verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:08:49] slug=equatorial_particle_ring verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:08:49] gate done
+[2026-11-12T13:28:01] gate start slugs=geyser_venting,trench_run_globe,containment_dribble,bio_sphere_terraformer,gyro_sphere_mech
+[2026-11-12T13:28:21] unity exit=1
+[2026-11-12T13:28:21] results xml missing
+[2026-11-12T13:28:21] slug=geyser_venting verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T13:28:21] slug=trench_run_globe verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T13:28:21] slug=containment_dribble verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T13:28:21] slug=bio_sphere_terraformer verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T13:28:21] slug=gyro_sphere_mech verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T13:28:22] gate done
+[2026-11-12T13:29:43] gate start slugs=geyser_venting,trench_run_globe,containment_dribble,bio_sphere_terraformer,gyro_sphere_mech
+[2026-11-12T13:30:03] unity exit=2
+[2026-11-12T13:30:03] slug=geyser_venting verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:30:03] slug=trench_run_globe verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:30:03] slug=containment_dribble verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:30:04] slug=bio_sphere_terraformer verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:30:04] slug=gyro_sphere_mech verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:30:04] gate done
+[2026-11-12T13:31:22] gate start slugs=geyser_venting,trench_run_globe,containment_dribble,bio_sphere_terraformer,gyro_sphere_mech
+[2026-11-12T13:31:42] unity exit=2
+[2026-11-12T13:31:42] slug=geyser_venting verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:31:42] slug=trench_run_globe verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:31:42] slug=containment_dribble verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:31:42] slug=bio_sphere_terraformer verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:31:42] slug=gyro_sphere_mech verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:31:42] gate done
+[2026-11-12T13:32:38] gate start slugs=geyser_venting,trench_run_globe,containment_dribble,bio_sphere_terraformer,gyro_sphere_mech
+[2026-11-12T13:32:58] unity exit=0
+[2026-11-12T13:32:58] slug=geyser_venting verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:32:58] slug=trench_run_globe verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:32:58] slug=containment_dribble verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:32:58] slug=bio_sphere_terraformer verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:32:58] slug=gyro_sphere_mech verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T13:32:59] gate done
+[2026-11-12T13:53:48] gate start slugs=sub_surface_hovercraft,weeble_sumo,worry_stone_spirit,scarab_buckler,bobsled_chute
+[2026-11-12T13:54:18] unity exit=2
+[2026-11-12T13:54:18] slug=sub_surface_hovercraft verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T13:54:19] slug=weeble_sumo verdict=tests failed=3 of 14 passed=11 status=gate_fail
+[2026-11-12T13:54:19] slug=worry_stone_spirit verdict=tests failed=4 of 14 passed=10 status=gate_fail
+[2026-11-12T13:54:19] slug=scarab_buckler verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T13:54:19] slug=bobsled_chute verdict=tests failed=3 of 14 passed=11 status=gate_fail
+[2026-11-12T13:54:19] gate done
+[2026-11-12T13:58:55] gate start slugs=sub_surface_hovercraft,weeble_sumo,worry_stone_spirit,scarab_buckler,bobsled_chute
+[2026-11-12T13:59:25] unity exit=2
+[2026-11-12T13:59:25] slug=sub_surface_hovercraft verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:59:25] slug=weeble_sumo verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:59:25] slug=worry_stone_spirit verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T13:59:25] slug=scarab_buckler verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:59:25] slug=bobsled_chute verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T13:59:25] gate done
+[2026-11-12T14:00:52] gate start slugs=sub_surface_hovercraft,weeble_sumo,worry_stone_spirit,scarab_buckler,bobsled_chute
+[2026-11-12T14:01:22] unity exit=0
+[2026-11-12T14:01:22] slug=sub_surface_hovercraft verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:01:22] slug=weeble_sumo verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:01:22] slug=worry_stone_spirit verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:01:22] slug=scarab_buckler verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:01:22] slug=bobsled_chute verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:01:22] gate done
+[2026-11-12T14:14:27] gate start slugs=vortex_wobbler,elliptical_orbit,trilobite_march,phantom_stone_skipper,paddlewheel_pod
+[2026-11-12T14:14:57] unity exit=2
+[2026-11-12T14:14:57] slug=vortex_wobbler verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T14:14:57] slug=elliptical_orbit verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:14:57] slug=trilobite_march verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:14:57] slug=phantom_stone_skipper verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:14:57] slug=paddlewheel_pod verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T14:14:57] gate done
+[2026-11-12T14:16:29] gate start slugs=vortex_wobbler,elliptical_orbit,trilobite_march,phantom_stone_skipper,paddlewheel_pod
+[2026-11-12T14:16:59] unity exit=2
+[2026-11-12T14:16:59] slug=vortex_wobbler verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:16:59] slug=elliptical_orbit verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:16:59] slug=trilobite_march verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:16:59] slug=phantom_stone_skipper verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:16:59] slug=paddlewheel_pod verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:17:00] gate done
+[2026-11-12T14:18:09] gate start slugs=vortex_wobbler,elliptical_orbit,trilobite_march,phantom_stone_skipper,paddlewheel_pod
+[2026-11-12T14:18:29] unity exit=2
+[2026-11-12T14:18:29] slug=vortex_wobbler verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:18:29] slug=elliptical_orbit verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:18:29] slug=trilobite_march verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:18:29] slug=phantom_stone_skipper verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:18:29] slug=paddlewheel_pod verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:18:30] gate done
+[2026-11-12T14:24:11] gate start slugs=paddlewheel_pod
+[2026-11-12T14:24:42] unity exit=2
+[2026-11-12T14:24:42] slug=paddlewheel_pod verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:24:42] gate done
+[2026-11-12T14:26:46] gate start slugs=paddlewheel_pod
+[2026-11-12T14:27:16] unity exit=0
+[2026-11-12T14:27:17] slug=paddlewheel_pod verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:27:17] gate done
+[2026-11-12T14:27:40] gate start slugs=vortex-wobbler,elliptical-orbit,trilobite-march,phantom-stone-skipper,paddlewheel-pod
+[2026-11-12T14:28:00] unity exit=0
+[2026-11-12T14:28:00] slug=vortex-wobbler verdict=LINT: no folder status=gate_fail
+[2026-11-12T14:28:00] slug=elliptical-orbit verdict=LINT: no folder status=gate_fail
+[2026-11-12T14:28:00] slug=trilobite-march verdict=LINT: no folder status=gate_fail
+[2026-11-12T14:28:00] slug=phantom-stone-skipper verdict=LINT: no folder status=gate_fail
+[2026-11-12T14:28:00] slug=paddlewheel-pod verdict=LINT: no folder status=gate_fail
+[2026-11-12T14:28:00] gate done
+[2026-11-12T14:28:38] gate start slugs=vortex_wobbler,elliptical_orbit,trilobite_march,phantom_stone_skipper,paddlewheel_pod
+[2026-11-12T14:28:58] unity exit=0
+[2026-11-12T14:28:58] slug=vortex_wobbler verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:28:58] slug=elliptical_orbit verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:28:58] slug=trilobite_march verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:28:58] slug=phantom_stone_skipper verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:28:58] slug=paddlewheel_pod verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:28:58] gate done
+[2026-11-12T14:47:55] gate start slugs=phantom_shell_game,micro_wok_toss,snapping_turtle_bunker,deep_space_dish,bey_cap_clash
+[2026-11-12T14:48:25] unity exit=2
+[2026-11-12T14:48:25] slug=phantom_shell_game verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T14:48:25] slug=micro_wok_toss verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:48:25] slug=snapping_turtle_bunker verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:48:25] slug=deep_space_dish verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T14:48:25] slug=bey_cap_clash verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T14:48:25] gate done
+[2026-11-12T14:52:21] gate start slugs=phantom_shell_game,micro_wok_toss,snapping_turtle_bunker,deep_space_dish,bey_cap_clash
+[2026-11-12T14:52:51] unity exit=0
+[2026-11-12T14:52:51] slug=phantom_shell_game verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:52:51] slug=micro_wok_toss verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:52:51] slug=snapping_turtle_bunker verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:52:51] slug=deep_space_dish verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:52:51] slug=bey_cap_clash verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T14:52:51] gate done
+[2026-11-12T15:06:37] gate start slugs=tardigrade_pond,paratrooper_basket,micro_mortar_alchemist,limpet_suction,temple_bell
+[2026-11-12T15:07:07] unity exit=2
+[2026-11-12T15:07:07] slug=tardigrade_pond verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:07:07] slug=paratrooper_basket verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T15:07:07] slug=micro_mortar_alchemist verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:07:08] slug=limpet_suction verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:07:08] slug=temple_bell verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T15:07:08] gate done
+[2026-11-12T15:11:08] gate start slugs=tardigrade_pond,paratrooper_basket,micro_mortar_alchemist,limpet_suction,temple_bell
+[2026-11-12T15:11:39] unity exit=0
+[2026-11-12T15:11:39] slug=tardigrade_pond verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:11:39] slug=paratrooper_basket verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:11:39] slug=micro_mortar_alchemist verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:11:39] slug=limpet_suction verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:11:39] slug=temple_bell verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:11:39] gate done
+[2026-11-12T15:30:38] gate start slugs=galaxy_cauldron,singing_bowl_sanctuary,fingerboard_bowl,observatory_dome,medusa_jellyfish
+[2026-11-12T15:31:08] unity exit=2
+[2026-11-12T15:31:08] slug=galaxy_cauldron verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:31:08] slug=singing_bowl_sanctuary verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T15:31:08] slug=fingerboard_bowl verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:31:08] slug=observatory_dome verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:31:09] slug=medusa_jellyfish verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:31:09] gate done
+[2026-11-12T15:36:18] gate start slugs=galaxy_cauldron,singing_bowl_sanctuary,fingerboard_bowl,observatory_dome,medusa_jellyfish
+[2026-11-12T15:36:38] unity exit=0
+[2026-11-12T15:36:38] slug=galaxy_cauldron verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:36:38] slug=singing_bowl_sanctuary verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:36:38] slug=fingerboard_bowl verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:36:38] slug=observatory_dome verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:36:38] slug=medusa_jellyfish verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T15:36:39] gate done
+[2026-11-12T15:55:27] gate start slugs=kraken-broth,foghorn_buoy,arecibo_reflector,tortoise_bastion,buckler_deflector
+[2026-11-12T15:55:47] unity exit=1
+[2026-11-12T15:55:47] results xml missing
+[2026-11-12T15:55:47] slug=kraken-broth verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T15:55:47] slug=foghorn_buoy verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T15:55:47] slug=arecibo_reflector verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T15:55:47] slug=tortoise_bastion verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T15:55:47] slug=buckler_deflector verdict=no results xml (unityExit=1) status=gate_fail
+[2026-11-12T15:55:47] gate done
+[2026-11-12T15:59:01] gate start slugs=kraken-broth,foghorn_buoy,arecibo_reflector,tortoise_bastion,buckler_deflector
+[2026-11-12T15:59:31] unity exit=2
+[2026-11-12T15:59:31] slug=kraken-broth verdict=no tests registered for this game status=gate_fail
+[2026-11-12T15:59:31] slug=foghorn_buoy verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T15:59:31] slug=arecibo_reflector verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:59:31] slug=tortoise_bastion verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T15:59:31] slug=buckler_deflector verdict=tests failed=2 of 14 passed=12 status=gate_fail
+[2026-11-12T15:59:31] gate done
+[2026-11-12T16:26:11] gate start slugs=kraken_broth,foghorn_buoy,arecibo_reflector,tortoise_bastion,buckler_deflector
+[2026-11-12T16:26:41] unity exit=2
+[2026-11-12T16:26:41] slug=kraken_broth verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T16:26:41] slug=foghorn_buoy verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T16:26:41] slug=arecibo_reflector verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T16:26:41] slug=tortoise_bastion verdict=unity exit nonzero with xml clean (exit=2), investigate status=gate_fail
+[2026-11-12T16:26:41] slug=buckler_deflector verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-12T16:26:41] gate done
+[2026-11-12T16:50:08] gate start slugs=kraken_broth,foghorn_buoy,arecibo_reflector,tortoise_bastion,buckler_deflector
+[2026-11-12T16:50:38] unity exit=0
+[2026-11-12T16:50:38] slug=kraken_broth verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T16:50:38] slug=foghorn_buoy verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T16:50:38] slug=arecibo_reflector verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T16:50:38] slug=tortoise_bastion verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T16:50:38] slug=buckler_deflector verdict=PASS tests=14 passed=14 status=complete
+[2026-11-12T16:50:38] gate done
+[2026-11-13T03:45:15] gate start slugs=bernoulli_levitator
+[2026-11-13T03:46:16] unity exit=2
+[2026-11-13T03:46:16] slug=bernoulli_levitator verdict=tests failed=1 of 14 passed=13 status=gate_fail
+[2026-11-13T03:46:16] gate done
+[2026-11-13T03:47:17] gate start slugs=bernoulli_levitator
+[2026-11-13T03:47:37] unity exit=0
+[2026-11-13T03:47:37] slug=bernoulli_levitator verdict=PASS tests=14 passed=14 status=complete
+[2026-11-13T03:47:37] gate done

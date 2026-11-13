@@ -1,0 +1,18 @@
+# electron_deflector build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_10_electron_deflector.md
+- classes:
+  - ElectronDeflectorConfig: sector arcs, cooldowns, tube and absorb radii, particle budget
+  - PropBall: ball center and pole axis
+  - PoleClamp: north/south pole contact validation
+  - SectorMapper: 12-sector longitude mapping with 3 deg hysteresis, cooldowns, finger heat lock
+  - BurstSystem: impulse calculation, 15% surge boost, deflection curves
+  - NeutronPool: neutron agents, radial movement, HP (1 for normal, 2 for heavy)
+  - RingSet: torus collection within 15 mm
+  - ContainmentDirector: charges, core absorption at 26 mm, shell surge timing
+  - NucleusRig: nucleus visual state
+  - StreamRig: neutron streams
+  - ElectronDeflectorRig: MonoBehaviour runtime rig
+- constants source: ElectronDeflectorConfig fields
+- tests automated: 13 items (Test01..Test10, Test12..Test14), NeedsDevice: 1 item (Test11)
+- honest limitations / assumptions: Pure C# EditMode test suite; runtime rig binds to headset and hands.

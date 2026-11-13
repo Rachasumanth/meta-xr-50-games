@@ -1,0 +1,20 @@
+# pulse_core_reactor build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1b_true_spheres_palm_scale/game_02_pulse_core_reactor.md
+- classes:
+  - PulseCoreReactorConfig: aperture dimensions, shield radii, cooldowns
+  - PropTracker: pose and tracking state
+  - GripSolver: aperture delta (0 to 6 mm) and normalized pressure p
+  - DeformationModel: Hertz contact force calculation (F = 0.5677 * delta^1.5)
+  - ShieldController: shield radius (40 to 160 mm), density D (1.00 - 0.60p), lockout
+  - HeatSystem: heat accumulation (~37/s at p=1.0), vent cooldown and heat dump
+  - RhythmClassifier: 850 ms press/hold/release rhythm cycle and 4-cycle resonance
+  - ThreatDirector: beam and bomb scheduling
+  - ThreatResolver: exact beam deflect (Rs >= wb) and bomb crush (D >= 0.70) tests
+  - ScoreSystem: posture, timing, resonance score accrual
+  - CoreStateMachine: core HP management (100 HP) and game over
+  - FeedbackRouter: audio/VFX coverage
+  - PulseCoreReactorRig: MonoBehaviour runtime component
+- constants source: PulseCoreReactorConfig fields
+- tests automated: 13 items (Test01..Test12, Test14), NeedsDevice: 1 item (Test13)
+- honest limitations / assumptions: EditMode tests verify Hertz math, shield ramps, and threat resolution; runtime rig hooks to Meta XR SDK hands.

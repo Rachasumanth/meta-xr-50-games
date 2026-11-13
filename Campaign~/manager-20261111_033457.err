@@ -1,0 +1,51 @@
+[0m
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BernoulliLevitatorConfig.cs
+Created file successfully: Scripts/BernoulliLevitatorConfig.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BallRegistration.cs
+Created file successfully: Scripts/BallRegistration.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/PinchTracker.cs
+Created file successfully: Scripts/PinchTracker.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/HeightController.cs
+Created file successfully: Scripts/HeightController.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/SpinFusion.cs
+Created file successfully: Scripts/SpinFusion.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/OrbBody.cs
+Created file successfully: Scripts/OrbBody.cs
+> build · gemini-3.5-flash-lite
+[93m[1m! [0mretrying (attempt 2): This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+[0m← [0mWrite Scripts/RingField.cs
+Created file successfully: Scripts/RingField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/GustField.cs
+Created file successfully: Scripts/GustField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/PressureState.cs
+Created file successfully: Scripts/PressureState.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/WaveDirector.cs
+Created file successfully: Scripts/WaveDirector.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/FeedbackDirector.cs
+Created file successfully: Scripts/FeedbackDirector.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/SessionFSM.cs
+Created file successfully: Scripts/SessionFSM.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BernoulliLevitatorRig.cs
+Created file successfully: Scripts/BernoulliLevitatorRig.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/NozzleFrame.cs
+Created file successfully: Scripts/NozzleFrame.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/Editor/AcceptanceTests.cs
+Created file successfully: Scripts/Editor/AcceptanceTests.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite BUILD_LOG.md
+Wrote file successfully: BUILD_LOG.md
+> build · gemini-3.5-flash-lite

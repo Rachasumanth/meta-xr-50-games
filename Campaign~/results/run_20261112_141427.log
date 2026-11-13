@@ -1,0 +1,560 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.64f1-d4299b69b02d' branch; Version is '6000.0.64f1 (5360b7cd7953) revision 5464247'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit ServerDatacenter' Language: 'en' Physical Memory: 7932 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-11-12T14:14:27Z
+[Licensing::IpcConnector] Channel LicenseClient-Administrator doesn't exist
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:\Users\Administrator\UnityProjects\MetaXRSim
+-runTests
+-testPlatform
+EditMode
+-testResults
+C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261112_141427.xml
+-logFile
+C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261112_141427.log
+Successfully changed project path to: C:\Users\Administrator\UnityProjects\MetaXRSim
+C:/Users/Administrator/UnityProjects/MetaXRSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 6720)
+Player connection [5032]  Target information:
+
+Player connection [5032]  * "[IP] 172.31.11.93 [Port] 55504 [Flags] 2 [Guid] 3223463469 [EditorId] 3223463469 [Version] 1048832 [Id] WindowsEditor(7,EC2AMAZ-A5VVK8K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5032] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5032] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-11-12T14:14:28.6140555Z"
+[Package Manager] Connected to IPC stream "Upm-2104" after 1.3 seconds.
+Library Redirect Path: Library/
+FMOD initialized on nosound output
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.64f1 (5360b7cd7953)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/UnityProjects/MetaXRSim/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003061 seconds.
+- Loaded All Assemblies, in  0.786 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              c4ebcf5450d84ff7ac5b11ccdbfc7dcc
+  Correlation Id:          c0ccdc3e2b3589b44f65887258770a1e
+  External correlation Id: 1140680925289921661
+  Machine Id:              zNw5v5yYNmaLlvrud47BexdsNoQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator" (connect: 0.99s, validation: 0.42s, handshake: 1.52s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-notifications" at "2026-11-12T14:14:30.5599081Z"
+[Licensing::Module] Connected to LicensingClient (PId: 6720, launch time: 0.02, total connection time: 2.94s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469854618815-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.11
+[Licensing::Module] Licensing Background thread has ended after 3.30s
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1617ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (352ms)
+				TypeCache.ScanAssembly (313ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 45 packages:
+  Packages from [https://npm.developer.oculus.com]:
+    com.meta.xr.sdk.core@207.0.1 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.meta.xr.sdk.core@4c2eac90db2d)
+  Packages from [https://packages.unity.com]:
+    com.unity.xr.hands@1.7.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.hands@6361f2b63a8e)
+    com.unity.inputsystem@1.17.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.inputsystem@02433b2481ab)
+    com.unity.mathematics@1.3.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.xr.core-utils@2.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.core-utils@f0450cbac8d6)
+    com.unity.xr.management@4.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.management@574ebfb1e976)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.test-framework@24afccc4ed24)
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.ugui@2.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ugui@cdea37cdf817)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+DisplayProgressbar: Compiling Scripts
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Tools\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+ExitCode: 4 Duration: 1s564ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (1.46 seconds), 0 items updated, 11 evaluated
+ExitCode: 0 Duration: 0s541ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+Total cache size 0
+Assets\Games\4_2_prolate_and_oblate_spheroids\sub_surface_hovercraft\Scripts\HazardDirector.cs(55,43): warning CS0067: The event 'HazardDirector.OnHazardDestroyed' is never used
+Assets\Games\4_2_prolate_and_oblate_spheroids\sub_surface_hovercraft\Scripts\ContactBus.cs(25,23): warning CS0414: The field 'ContactBus._lastClickTime' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\equatorial_particle_ring\Scripts\EquatorTracer.cs(21,22): warning CS0414: The field 'EquatorTracer._hasLast' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\trench_run_globe\Scripts\ReadHeadModel.cs(13,23): warning CS0414: The field 'ReadHeadModel._uPrev' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\equatorial_particle_ring\Scripts\EquatorTracer.cs(20,23): warning CS0414: The field 'EquatorTracer._lastLambda' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\trench_run_globe\Scripts\ReadHeadModel.cs(14,22): warning CS0414: The field 'ReadHeadModel._hasUPrev' is assigned but its value is never used
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(106,19): warning CS0219: The variable 'a' is assigned but its value is never used
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(107,19): warning CS0219: The variable 'b' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\mystic_seer\Scripts\Editor\AcceptanceTests.cs(96,19): warning CS0219: The variable 'dt' is assigned but its value is never used
+Total cache size after purge 0, took 00:00:00.0139819
+ExitCode: 0 Duration: 3s713ms
+Finished compiling graph: 782 nodes, 14024 flattened edges (12210 ToBuild, 158 ToUse), maximum node priority 813
+[614/779    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
+[615/779    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[773/779    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Games\4_2_prolate_and_oblate_spheroids\sub_surface_hovercraft\Scripts\HazardDirector.cs(55,43): warning CS0067: The event 'HazardDirector.OnHazardDestroyed' is never used
+
+Assets\Games\4_2_prolate_and_oblate_spheroids\sub_surface_hovercraft\Scripts\ContactBus.cs(25,23): warning CS0414: The field 'ContactBus._lastClickTime' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\equatorial_particle_ring\Scripts\EquatorTracer.cs(21,22): warning CS0414: The field 'EquatorTracer._hasLast' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\trench_run_globe\Scripts\ReadHeadModel.cs(13,23): warning CS0414: The field 'ReadHeadModel._uPrev' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\equatorial_particle_ring\Scripts\EquatorTracer.cs(20,23): warning CS0414: The field 'EquatorTracer._lastLambda' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\trench_run_globe\Scripts\ReadHeadModel.cs(14,22): warning CS0414: The field 'ReadHeadModel._hasUPrev' is assigned but its value is never used
+[774/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[775/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[776/779    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(106,19): warning CS0219: The variable 'a' is assigned but its value is never used
+
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(107,19): warning CS0219: The variable 'b' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\mystic_seer\Scripts\Editor\AcceptanceTests.cs(96,19): warning CS0219: The variable 'dt' is assigned but its value is never used
+[777/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[778/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (3.61 seconds), 8 items updated, 779 evaluated
+AssetDatabase: script compilation time: 7.694188s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.123 seconds
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march using Guid(44c66aea32350854f8d3aca8727d2753) (DefaultImporter) -> (artifact id: 'b16e55c40019d47f8ab08a60cf53c25d') in 0.0309965 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper using Guid(35f47c21ad71b19408c493242588b966) (DefaultImporter) -> (artifact id: '046e5c979f2de0539538a5447f3a2e30') in 0.0110766 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit using Guid(06d16953373d06241af8928292a63dd5) (DefaultImporter) -> (artifact id: '8303cb71e69ffa4cb6b69318a34df30c') in 0.0095447 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler using Guid(f610f4d0745f7054a913977a7c91a4de) (DefaultImporter) -> (artifact id: '9f871b74dd48bc9ff055a5af04b67b49') in 0.0111709 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod using Guid(5e286677ad7b0194996f905863b9666e) (DefaultImporter) -> (artifact id: 'a88b7a5444bf14b942c30b719dd4497c') in 0.0130762 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper/Scripts using Guid(11848324d8e1ba540b6682950f50f911) (DefaultImporter) -> (artifact id: 'd5295660e8964520741e4068604d5c65') in 0.0109041 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit/Models using Guid(344f457508093de428fff8d5a0aa1700) (DefaultImporter) -> (artifact id: '01a11c6d8e7f61f7bc5df813ad422f79') in 0.0101623 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler/Models using Guid(64ee8c0afad1b434193e6633a55b65fd) (DefaultImporter) -> (artifact id: '7c6b2c324fc3f0afd7d4706cf159edf1') in 0.0115486 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod/Scripts using Guid(969f8df84e107ee41a976a79ee05c49c) (DefaultImporter) -> (artifact id: 'a1c12f6928cb6f0dde36ae4f556fc2e0') in 0.0105671 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper/Models using Guid(d6163de1f46af724fb7dc1bfc987aa73) (DefaultImporter) -> (artifact id: '3094213d5078d8ea18fa7bc56b14156c') in 0.0119631 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march/Models using Guid(37833a912efe194459a1739fd0219442) (DefaultImporter) -> (artifact id: 'c45a5f1d3395a37cf2e97c93eb011656') in 0.0117637 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit/Scripts using Guid(c823f593fb017f648887d2357606e764) (DefaultImporter) -> (artifact id: '68aa91b37f904c9d10a2aad4ed150510') in 0.0097944 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod/Models using Guid(ca23a650ffbc5934b8e2a984bd712440) (DefaultImporter) -> (artifact id: 'bea9730992a17d57c0100172607b12ec') in 0.0127258 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march/Scripts using Guid(ada23739b43b8c848b3bce5b9d79accd) (DefaultImporter) -> (artifact id: 'aa16715927ef3b81002ef5f6e632ae4f') in 0.0131627 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler/Scripts using Guid(6f3b4dfc0d19f0048987581c446d61f2) (DefaultImporter) -> (artifact id: 'a0c086b9a47b8fdfb26b52710e4b12cc') in 0.0113718 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler/Scripts/Editor using Guid(55420a9d3bc508e48a7b3ecde4f26991) (DefaultImporter) -> (artifact id: '5b3f667662122bceda38a6994842c32d') in 0.0107488 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod/Scripts/Editor using Guid(2686e682cefba3744841f0b9bed7de65) (DefaultImporter) -> (artifact id: '8dd990b07d53feefaaa710d54202693f') in 0.0099165 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper/Scripts/Editor using Guid(d626a1de882482d4598490458110f284) (DefaultImporter) -> (artifact id: 'ca58511fc2c5526f7e8a8c49ccbe23ec') in 0.0104005 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit/Scripts/Editor using Guid(2aa87846257c3784bbb69cc7714196b3) (DefaultImporter) -> (artifact id: '3bab3f7b8a0ad99cd01b9a3061755ad8') in 0.0092979 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march/Scripts/Editor using Guid(ebbd5b898faf91344ab7207221eb18f5) (DefaultImporter) -> (artifact id: '6927106a2d36189379df076304ec4a53') in 0.0100981 seconds
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Build target directory for AndroidPlayer does not exist!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs:95)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs line 95]
+
+Cancelling DisplayDialog: Android SDK not Found Android SDK not found. Please ensure that the path is set correctly in (Edit -> Preferences -> External Tools) or that the Unity Android module is installed correctly.
+This should not be called in batch mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialogImpl (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs:117)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs line 117]
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.877 seconds
+Domain Reload Profiling: 2997ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (702ms)
+		LoadAssemblies (671ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (1285ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler/Models/vortex_wobbler.glb using Guid(40d8bf2927f5fdd4f99ec0e772a8d7e4) (DefaultImporter) -> (artifact id: '450c4e8e73c3d8f886944c21699ea1db') in 0.0397705 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper/Models/skipping_stone.glb using Guid(35fc73bcc57e992418c10f444d4a155f) (DefaultImporter) -> (artifact id: 'f2c9caa4c36f04c155c9c704efb18bc9') in 0.0110667 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit/Models/space_shuttle.glb using Guid(c533c687468253b42a75347aea9196b5) (DefaultImporter) -> (artifact id: '36b720d3846afe6074b8d86bf65526f7') in 0.0101114 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod/Models/paddlewheel_pod.glb using Guid(3a268e6441ff1c64c914e5b41291afe7) (DefaultImporter) -> (artifact id: 'e01f7ebb25c971b11bb0602744662f12') in 0.011163 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march/Models/trilobite.glb using Guid(7abb9f142db811c458f8873b7ad35bb1) (DefaultImporter) -> (artifact id: 'c76e9e617dd9636929c1797f7429a987') in 0.0101926 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/elliptical_orbit/BUILD_LOG.md using Guid(b09809322f80e314a9c0a585aa5cd77d) (TextScriptImporter) -> (artifact id: '734d865e8c2c5f27d004b1beca11cf3f') in 0.0132875 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/vortex_wobbler/BUILD_LOG.md using Guid(0b3963df8a4200844a7791d3c2b0fc38) (TextScriptImporter) -> (artifact id: '66c318f6336b7b1adde37c7d9f0f4ab7') in 0.0272532 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/trilobite_march/BUILD_LOG.md using Guid(0e517b16642e0924490e175591fdcfee) (TextScriptImporter) -> (artifact id: '2242dfb236b83ec4069e313485eafe9f') in 0.0210121 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/phantom_stone_skipper/BUILD_LOG.md using Guid(8eea895e36207844d955df3e9448badc) (TextScriptImporter) -> (artifact id: '7d658e4516b254b98c5379a9fcdfce00') in 0.0106828 seconds
+Start importing Assets/Games/4_2_prolate_and_oblate_spheroids/paddlewheel_pod/BUILD_LOG.md using Guid(9f3ef6df902ab404d8a470d809931e79) (TextScriptImporter) -> (artifact id: '08edc5aee567fcdecc4fef7ef84fd5fd') in 0.0121801 seconds
+Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=ffb7ba6144826e74daa7a7f1940900f7): Total: 12.752 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=30 (actual=30, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=3034 ms
+		Asset DB Callback time: managed=739 ms, native=56 ms
+		Scripting: domain reloads=1, domain reload time=1124 ms, compile time=7697 ms, other=92 ms
+		Project Asset Count: scripts=1067, non-scripts=1154
+		Asset File Changes: new=65, changed=65, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 47.022ms
+	ApplyChangesToAssetFolders: 0.729ms
+	Scan: 296.361ms
+	OnSourceAssetsModified: 1.926ms
+	CategorizeAssetsWithTransientArtifact: 44.766ms
+	ProcessAssetsWithTransientArtifactChanges: 75.457ms
+	CategorizeAssets: 32.985ms
+	ImportOutOfDateAssets: 2334.013ms (-5803.584ms without children)
+		ImportManagerImport: 430.382ms (13.392ms without children)
+			ImportInProcess: 416.623ms
+			UpdateCategorizedAssets: 0.366ms
+		CompileScripts: 7697.049ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.517ms
+		ReloadImportedAssets: 0.006ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.601ms
+		InitializingProgressBar: 0.012ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 9.028ms
+	PostProcessAllAssets: 740.600ms
+	Hotreload: 8.366ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.337ms
+	PersistCurrentRevisions: 0.367ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 6.227ms
+	Untracked: 9169.401ms
+
+Application.AssetDatabase Initial Refresh End
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Scanning for USB devices : 0.717ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MetaXRSim
+Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3162 unused Assets / (11.1 MB). Loaded Objects now: 4163.
+Memory consumption went from 151.0 MB to 139.9 MB.
+Total: 18.119800 ms (FindLiveObjects: 0.411500 ms CreateObjectMapping: 0.343600 ms MarkObjects: 14.011400 ms  DeleteObjects: 3.351600 ms)
+
+Unity is running with Administrator privileges, which is not supported. Unity executes scripts and binary libraries in your project that may originate from third party sources and potentially be harmful to your computer. Unity may also execute scripts and binary libraries that are still under development and not yet fully tested. Running Unity with Administrator privileges may lead to catastrophic consequences, including but not limited to accidental data loss, change of global system settings or even bricking your device.
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 17.039 seconds
+	Project init time: 				16.309 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		1.280 seconds
+		Asset Database init time: 		0.221 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.645 seconds
+		Unity extensions init time: 	0.008 seconds
+		Asset Database refresh time: 	12.753 seconds
+	Scene opening time: 			0.700 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794492884632,"processId":2104,"projectLoad":17.038869100000004,"projectInit":16.3085111,"templateInit":0.0,"packageManagerInit":1.2798103,"assetDatabaseInit":0.2205531,"globalIlluminationInit":0.0023737,"assembliesLoad":1.6452839,"unityExtensionsInit":0.0082332,"assetDatabaseRefresh":12.7525246,"sceneOpening":0.6995047}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794492884632,"processId":2104,"editorVersion":"6000.0.64f1 (5360b7cd7953)","branch":"6000.0/respin/6000.0.64f1-d4299b69b02d","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=6ad791c3e6df30b4fa0514be8170d755): Total: 0.539 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=538 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1067, non-scripts=1154
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.290ms
+	Scan: 8.699ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.004ms
+	ProcessAssetsWithTransientArtifactChanges: 0.118ms
+	CategorizeAssets: 15.656ms
+	ImportOutOfDateAssets: 21.431ms (8.683ms without children)
+		ReloadNativeAssets: 0.120ms
+		UnloadImportedAssets: 0.211ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.363ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 12.053ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.133ms
+	UnloadStreamsBegin: 1.876ms
+	PersistCurrentRevisions: 0.107ms
+	UnloadStreamsEnd: 0.002ms
+	Untracked: 490.252ms
+
+Running tests for ExecutionSettings with details:
+targetPlatform = 
+playerHeartbeatTimeout = 600
+filters[0] = 
+   Filter with settings:
+   testMode = EditMode
+   targetPlatform = 
+   testNames = null
+   groupNames = null
+   categoryNames = null
+   assemblyNames = null
+ignoreTests = {}
+featureFlags = null
+
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/Executer.cs:53)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:InitializeAndExecuteRun () (at ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:64)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 53)
+
+[Licensing::Client] Successfully resolved entitlement details
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at C:/Users/Administrator/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.014s, timestamps: [17.067 - 17.081]
+[Project Setup Tool] There are 3 outstanding Required fixes.
+For more information, go to <a href="OpenProjectSetupTool">Edit > Project Settings > Meta XR</a>
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+OVRConfigurationTaskUpdaterSummary:Log () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs:234)
+OVRConfigurationTaskUpdater:Complete () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdater.cs:130)
+OVRConfigurationTaskProcessorQueue:Dequeue (OVRConfigurationTaskProcessor) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:115)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:136)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs Line: 234)
+
+[Project Setup Tool] There are 2 outstanding Required fixes.
+For more information, go to <a href="OpenProjectSetupTool">Edit > Project Settings > Meta XR</a>
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+OVRConfigurationTaskUpdaterSummary:Log () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs:234)
+OVRConfigurationTaskUpdater:Complete () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdater.cs:130)
+OVRConfigurationTaskProcessorQueue:Dequeue (OVRConfigurationTaskProcessor) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:115)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:136)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs Line: 234)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4206.
+Memory consumption went from 119.7 MB to 119.7 MB.
+Total: 14.186100 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.143000 ms MarkObjects: 13.754100 ms  DeleteObjects: 0.037600 ms)
+
+Saving results to: C:\Users\Administrator\UnityProjects\MetaXRSim\Campaign~\results\run_20261112_141427.xml
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (6.0 KB). Loaded Objects now: 4206.
+Memory consumption went from 119.7 MB to 119.7 MB.
+Total: 18.511600 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.096000 ms MarkObjects: 18.143900 ms  DeleteObjects: 0.017300 ms)
+
+DisplayProgressbar: Undo
+Test run completed. Exiting with code 2 (Failed). One or more tests failed.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitApplication (UnityEditor.TestTools.TestRunner.CommandLineTest.Executer/ReturnCodes,string) (at ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/Executer.cs:81)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:ExitIfRunIsCompleted () (at ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/Executer.cs:74)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.test-framework@24afccc4ed24/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 81)
+
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Administrator-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1794492891216,"processId":2104,"allocatedMemory":12105527,"memoryLabels":[{"Default":14269},{"Permanent":15348},{"NewDelete":70425},{"Thread":4230344},{"Manager":17709},{"VertexData":8},{"Geometry":816},{"VFX":-104},{"Texture":296},{"Shader":78795},{"Material":24},{"GfxDevice":55176},{"Animation":392},{"Audio":4040},{"FontEngine":256},{"Physics":2081},{"Serialization":880},{"Input":14824},{"JobScheduler":33024},{"TextLib":160},{"Mono":32},{"ScriptingNativeRuntime":155060},{"BaseObject":1620112},{"Resource":1304},{"Renderer":2928},{"Transform":4646},{"File":1016},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":9775},{"DynamicArray":107348},{"HashMap":74228},{"Utility":2658718},{"Curl":48},{"PoolAlloc":1768},{"AI":104},{"TypeTree":5005},{"ScriptManager":512},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7888},{"Director":8240},{"WebRequest":808},{"VR":45969},{"SceneManager":496},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":1},{"Image":4096},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":256},{"Hierarchy":272},{"Gui":80},{"EditorUtility":93929},{"VersionControl":4},{"Undo":947},{"AssetDatabase":2359606},{"EditorGi":328},{"UnityConnect":24208},{"Upm":2036},{"DrivenProperties":72},{"LocalIPC":219},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2620},{"Licensing":1232},{"AssetReference":32},{"IPCStream":32}]}

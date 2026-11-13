@@ -1,0 +1,50 @@
+[0m
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BernoulliLevitatorConfig.cs
+Wrote file successfully: Scripts/BernoulliLevitatorConfig.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BallRegistration.cs
+Wrote file successfully: Scripts/BallRegistration.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/NozzleFrame.cs
+Wrote file successfully: Scripts/NozzleFrame.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/PinchTracker.cs
+Wrote file successfully: Scripts/PinchTracker.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/HeightController.cs
+Wrote file successfully: Scripts/HeightController.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/SpinFusion.cs
+Wrote file successfully: Scripts/SpinFusion.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/OrbBody.cs
+Wrote file successfully: Scripts/OrbBody.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/RingField.cs
+Wrote file successfully: Scripts/RingField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/GustField.cs
+Wrote file successfully: Scripts/GustField.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/PressureState.cs
+Wrote file successfully: Scripts/PressureState.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/WaveDirector.cs
+Wrote file successfully: Scripts/WaveDirector.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/FeedbackDirector.cs
+Wrote file successfully: Scripts/FeedbackDirector.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/SessionFSM.cs
+Wrote file successfully: Scripts/SessionFSM.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/BernoulliLevitatorRig.cs
+Wrote file successfully: Scripts/BernoulliLevitatorRig.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite Scripts/Editor/AcceptanceTests.cs
+Wrote file successfully: Scripts/Editor/AcceptanceTests.cs
+> build · gemini-3.5-flash-lite
+[0m← [0mWrite BUILD_LOG.md
+Wrote file successfully: BUILD_LOG.md
+> build · gemini-3.5-flash-lite

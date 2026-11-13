@@ -1,0 +1,20 @@
+# cage_pinball build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_05_cage_pinball.md
+- classes:
+  - CagePinballConfig: constants, thresholds, cooldowns, limits
+  - PropTracker: ball sphere fitting, tracking, ghost extrapolation
+  - TrayFrame: tray normal, plane re-seat timing
+  - CageFitter: palm cage radius clamp [60, 110], escape distance hysteresis, 1.5s grace
+  - FingertipMap: 5 bumper contact projection points
+  - BumperSystem: speed gate 40mm/s, 120ms cooldown, combo chain logic
+  - PinballSystem: crystal aiming and angular hit test
+  - CrystalRing: 8 slots, break/respawn
+  - BallPhysics: rolling law (omega = n x v / r), seam rotation
+  - ScoreService: lives, multipliers, bumper and crystal scoring
+  - FeedbackDirector: particle budget tracking (cap 850)
+  - SessionFSM: session phase states
+  - CagePinballRig: MonoBehaviour runtime rig
+- constants source: CagePinballConfig fields
+- tests automated: 12 items (Test01..Test09, Test11..Test13), NeedsDevice: 2 items (Test10, Test14)
+- honest limitations / assumptions: Pure C# EditMode test suite verifies exact mechanics; runtime rig hooks to Meta XR SDK hands and scene plane.

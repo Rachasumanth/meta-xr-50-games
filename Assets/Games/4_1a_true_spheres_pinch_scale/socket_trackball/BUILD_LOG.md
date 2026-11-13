@@ -1,0 +1,21 @@
+# socket_trackball build report
+- status: implemented, gate fix pass applied, awaiting truthful gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_01_socket_trackball.md
+- classes (one file each beyond the core):
+  - SocketTrackballConfig.cs - spec constants (19 fields, exact section-0/6/8 values)
+  - SocketTrackballCore.cs - PropTracker, SphereKinematics, GripIntegrity, RollController, ShipController, AsteroidField, CollisionWorld, WaveDirector, ScoreService, AudioDirector, SessionFSM, FSMState
+  - HandContacts.cs - ContactRecord + per-fingertip contact records with aging/invalidation
+  - SocketTrackballRig.cs - thin MonoBehaviour mirroring tracked marble pose + ship attitude
+  - Editor/AcceptanceTests.cs - 14 NUnit EditMode tests from spec section 16
+- fix pass 1 (first gate run exposed): duplicate type definitions (PropTracker/SphereKinematics/HandContacts/ContactRecord existed in standalone files AND in Core). Resolution: single definition each; stray standalone PropTracker.cs/SphereKinematics.cs removed (their APIs were unreferenced and incompatible with the section-16 test contract); HandContacts kept as the realer standalone implementation; Core kept the API the tests bind to. Upgrades in the same pass: real radius fit with RMS/max-frame-error bookkeeping (16.1), crown gate gain 1.0/1.0/0.0/0.0 with 69.9/70.1 boundary coverage (16.2), dead-zone release hysteresis 20/14 mm/s (16.3), quaternion integration via AngleAxis (was Euler-component; fixed, 16.4), full omega+alpha slip clamp (16.5), and grip-damp/restore tolerance asserts (16.6/16.7).
+- fix pass 2 (truthful gate run run_20261110_214552 caught 2 real failures): (a) ComputeAngularVelocity must return the RAW rolling law - the spec's own 16.4 expects exactly 10 rad/s from 80mm/s at r=8 (573 deg/s > the 540 cap), so the slip cap is an explicit downstream stage: ClampOmega enforces |omega|<=540deg/s AND |alpha|<=7200deg/s^2 (16.5), while driven integration uses AlphaSlew (alpha-rate slew only) so 57.3deg/0.1s stays truthful; (b) Test01's synthetic set made the centroid shift - reverted to 12 in-plane samples with fit-quality bounds. Also fixed in the same pass: the gate itself miscounted results (matched "failure"/"error" strings, never "Failed"), trusted exit 2 as success, and had falsely claimed complete - corrected: real Failed matching, PASS requires exit==0, notes carry real passed/failed counts.
+- constants source: SocketTrackballConfig fields n=19 (r=8.0mm, mass 5g, OmegaMax 540 deg/s, AlphaMax 7200 deg/s^2, DZ 20/14, V_SAT 220, K_bank 120, K_pitch 90, crown gate 70deg, grip damp 0.2)
+- tests automated: items 01-10 (radius fit + loss FSM, crown gate, dead zone + hysteresis, rolling law incl. 57.3 deg/0.1s quaternion check, slip clamp incl. alpha, grip damping down + cue, grip restore with no-overshoot, collision sphere-capsule, near-miss bounds, gate pass bounds)
+- NeedsDevice/deferred with rationale:
+  - 11 occulsion: needs Meta XR sim compositing runtime (com.meta.xr.sim not installed); system code is implemented and unit-gated, visual verification deferred
+  - 12 frame budget: needs frame-timing harness on device
+  - 13 recovery: needs device session-recovery path
+  - 14 endurance: needs full 7-minute device session
+- honest limitations / assumptions:
+  - Rig currently displays tracked marble pose and ship attitude; live hand-tracking data wiring into the pipeline is the Meta XR runtime path (device step), so rigs stay EditMode-testable with zero XR dependencies in core.
+  - AsteroidField rails, spawn schedule and ship cabin geometry beyond collision/near-miss bounds are runtime-only behaviors pending the sim runtime; the NaN-free deterministic rails they rely on are covered by the constants and the wave table test.

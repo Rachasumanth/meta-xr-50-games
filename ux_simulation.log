@@ -1,0 +1,1451 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.64f1-d4299b69b02d' branch; Version is '6000.0.64f1 (5360b7cd7953) revision 5464247'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit ServerDatacenter' Language: 'en' Physical Memory: 7932 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-11-13T04:35:02Z
+[Licensing::IpcConnector] Channel LicenseClient-Administrator doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 3788)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\Administrator\UnityProjects\MetaXRSim
+-executeMethod
+XRGames.UXTesting.UXSimulator.RunAll
+-logFile
+C:\Users\Administrator\UnityProjects\MetaXRSim\ux_simulation.log
+Successfully changed project path to: C:\Users\Administrator\UnityProjects\MetaXRSim
+C:/Users/Administrator/UnityProjects/MetaXRSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7496]  Target information:
+
+Player connection [7496]  * "[IP] 172.31.11.93 [Port] 55504 [Flags] 2 [Guid] 466584305 [EditorId] 466584305 [Version] 1048832 [Id] WindowsEditor(7,EC2AMAZ-A5VVK8K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator" at "2026-11-13T04:35:03.203819Z"
+[Package Manager] Connected to IPC stream "Upm-2296" after 1.2 seconds.
+Library Redirect Path: Library/
+FMOD initialized on nosound output
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.64f1 (5360b7cd7953)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/UnityProjects/MetaXRSim/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+    Vendor:   Microsoft
+    VRAM:     3966 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.64f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002978 seconds.
+- Loaded All Assemblies, in  0.666 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              add97fcad612440d97330c6834ad0bb2
+  Correlation Id:          7774f5064d7b4eebeb015d6cd80946c3
+  External correlation Id: 3079783588736295906
+  Machine Id:              zNw5v5yYNmaLlvrud47BexdsNoQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Administrator" (connect: 1.00s, validation: 0.38s, handshake: 1.46s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Administrator-notifications" at "2026-11-13T04:35:05.0503052Z"
+[Licensing::Module] Connected to LicensingClient (PId: 3788, launch time: 0.01, total connection time: 2.85s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469854618815-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.12
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.15s
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.732 seconds
+Domain Reload Profiling: 1396ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (733ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 45 packages:
+  Packages from [https://npm.developer.oculus.com]:
+    com.meta.xr.sdk.core@207.0.1 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.meta.xr.sdk.core@4c2eac90db2d)
+  Packages from [https://packages.unity.com]:
+    com.unity.xr.hands@1.7.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.hands@6361f2b63a8e)
+    com.unity.inputsystem@1.17.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.inputsystem@02433b2481ab)
+    com.unity.mathematics@1.3.2 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.mathematics@8017b507cc74)
+    com.unity.xr.core-utils@2.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.core-utils@f0450cbac8d6)
+    com.unity.xr.management@4.5.3 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.management@574ebfb1e976)
+    com.unity.xr.legacyinputhelpers@2.1.12 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4)
+  Built-in packages:
+    com.unity.test-framework@1.6.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.test-framework@24afccc4ed24)
+    com.unity.multiplayer.center@1.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility)
+    com.unity.modules.ai@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr)
+    com.unity.ugui@2.0.0 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ugui@cdea37cdf817)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\Administrator\UnityProjects\MetaXRSim\Library\PackageCache\com.unity.ext.nunit@031a54704bff)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.0.64f1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Administrator/UnityProjects/MetaXRSim
+DisplayProgressbar: Compiling Scripts
+Total cache size 0
+Assets\Games\4_3a_hemispheres_pinch_scale\micro_wok_toss\Scripts\Editor\AcceptanceTests.cs(70,19): warning CS0219: The variable 's' is assigned but its value is never used
+Assets\Games\4_1b_true_spheres_palm_scale\mystic_seer\Scripts\Editor\AcceptanceTests.cs(96,19): warning CS0219: The variable 'dt' is assigned but its value is never used
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(106,19): warning CS0219: The variable 'a' is assigned but its value is never used
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(107,19): warning CS0219: The variable 'b' is assigned but its value is never used
+Total cache size after purge 0, took 00:00:00.0127231
+ExitCode: 0 Duration: 5s83ms
+[776/779    2s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Games\4_3a_hemispheres_pinch_scale\micro_wok_toss\Scripts\Editor\AcceptanceTests.cs(70,19): warning CS0219: The variable 's' is assigned but its value is never used
+
+Assets\Games\4_1b_true_spheres_palm_scale\mystic_seer\Scripts\Editor\AcceptanceTests.cs(96,19): warning CS0219: The variable 'dt' is assigned but its value is never used
+
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(106,19): warning CS0219: The variable 'a' is assigned but its value is never used
+
+Assets\Games\4_2_prolate_and_oblate_spheroids\worry_stone_spirit\Scripts\Editor\AcceptanceTests.cs(107,19): warning CS0219: The variable 'b' is assigned but its value is never used
+[777/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[778/779    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.96 seconds), 3 items updated, 779 evaluated
+AssetDatabase: script compilation time: 6.333413s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.756 seconds
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Build target directory for AndroidPlayer does not exist!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs:95)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs line 95]
+
+Cancelling DisplayDialog: Android SDK not Found Android SDK not found. Please ensure that the path is set correctly in (Edit -> Preferences -> External Tools) or that the Unity Android module is installed correctly.
+This should not be called in batch mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialogImpl (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs:117)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@4c2eac90db2d/Editor/OVRConfig.cs line 117]
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.813 seconds
+Domain Reload Profiling: 2566ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (65ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1813ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (1345ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=4d5d4869d00f3bf40921e07ce9cc1882): Total: 10.391 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2210 ms
+		Asset DB Callback time: managed=968 ms, native=42 ms
+		Scripting: domain reloads=1, domain reload time=756 ms, compile time=6358 ms, other=54 ms
+		Project Asset Count: scripts=1153, non-scripts=1197
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.002ms
+	InvokePackagesCallback: 35.218ms
+	ApplyChangesToAssetFolders: 0.643ms
+	Scan: 115.697ms
+	OnSourceAssetsModified: 1.202ms
+	CategorizeAssetsWithTransientArtifact: 28.404ms
+	ProcessAssetsWithTransientArtifactChanges: 48.290ms
+	CategorizeAssets: 31.012ms
+	ImportOutOfDateAssets: 1829.368ms (-4529.997ms without children)
+		CompileScripts: 6358.041ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 0.169ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.656ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.497ms
+	PostProcessAllAssets: 972.194ms
+	Hotreload: 5.641ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.330ms
+	PersistCurrentRevisions: 0.099ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 6.588ms
+	Untracked: 7322.904ms
+
+Application.AssetDatabase Initial Refresh End
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Scanning for USB devices : 0.397ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-MetaXRSim
+Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3243 unused Assets / (13.0 MB). Loaded Objects now: 4242.
+Memory consumption went from 155.1 MB to 142.1 MB.
+Total: 16.835300 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.373500 ms MarkObjects: 12.422200 ms  DeleteObjects: 3.615400 ms)
+
+[UXSimulator] Starting Upgraded User Experience Simulation Suite...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:38)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 38)
+
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+[UXSimulator] Saved: ux_socket_trackball_01_approach_desk.png (80366 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSocketTrackball (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:275)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:48)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_rolling_interaction' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestSocketTrackball (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:280)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:48)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_socket_trackball_02_rolling_interaction.png (81674 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSocketTrackball (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:280)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:48)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_high_velocity_flick' pixel difference vs prior: 99.2%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestSocketTrackball (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:290)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:48)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_socket_trackball_03_high_velocity_flick.png (80805 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSocketTrackball (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:290)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:48)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_bernoulli_levitator_01_approach_nozzle.png (69954 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBernoulliLevitator (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:325)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:49)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_gust_levitation_equilibrium' pixel difference vs prior: 99.4%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBernoulliLevitator (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:334)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:49)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_bernoulli_levitator_02_gust_levitation_equilibrium.png (70986 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBernoulliLevitator (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:334)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:49)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_pinch_valve_altitude_rise' pixel difference vs prior: 99.4%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBernoulliLevitator (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:341)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:49)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_bernoulli_levitator_03_pinch_valve_altitude_rise.png (73712 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBernoulliLevitator (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:341)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:49)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_mystic_seer_01_dormant_crystal.png (85163 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMysticSeer (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:376)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:52)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_palm_proximity_aura' pixel difference vs prior: 99.0%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMysticSeer (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:385)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:52)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_mystic_seer_02_palm_proximity_aura.png (85392 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMysticSeer (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:385)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:52)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_omen_vision_reveal' pixel difference vs prior: 99.0%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMysticSeer (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:394)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:52)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_mystic_seer_03_omen_vision_reveal.png (88742 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMysticSeer (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:394)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:52)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_atlas_defense_01_peaceful_orbit.png (96334 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestAtlasDefense (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:421)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:53)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_missile_threat_incoming' pixel difference vs prior: 99.2%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestAtlasDefense (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:430)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:53)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_atlas_defense_02_missile_threat_incoming.png (98700 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestAtlasDefense (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:430)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:53)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_orbital_shield_flare' pixel difference vs prior: 99.5%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestAtlasDefense (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:438)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:53)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_atlas_defense_03_orbital_shield_flare.png (103157 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestAtlasDefense (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:438)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:53)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_weeble_sumo_01_upright_stance.png (92841 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWeebleSumo (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:485)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:56)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_lunge_push' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestWeebleSumo (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:490)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:56)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_weeble_sumo_02_lunge_push.png (95081 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWeebleSumo (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:490)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:56)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_rebound_wobble' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestWeebleSumo (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:500)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:56)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_weeble_sumo_03_rebound_wobble.png (95911 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWeebleSumo (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:500)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:56)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_bobsled_chute_01_start_gate.png (81210 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBobsledChute (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:535)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:57)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_banked_curve_turn' pixel difference vs prior: 99.5%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBobsledChute (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:546)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:57)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_bobsled_chute_02_banked_curve_turn.png (80464 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBobsledChute (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:546)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:57)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_magnetic_brake_zone' pixel difference vs prior: 99.4%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBobsledChute (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:552)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:57)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_bobsled_chute_03_magnetic_brake_zone.png (81458 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBobsledChute (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:552)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:57)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_worry_stone_spirit_01_resting_talisman.png (71001 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:579)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_thumb_friction_rub' pixel difference vs prior: 57.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:588)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_worry_stone_spirit_02_thumb_friction_rub.png (71849 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:588)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+Instantiating material due to calling renderer.material during edit mode. This will leak materials into the scene. You most likely want to use renderer.sharedMaterial instead.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Renderer:GetMaterial ()
+UnityEngine.Renderer:get_material ()
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:592)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+[Assets/Editor/UXSimulator.cs line 592]
+
+[UXSimulator] Phase '03_spirit_resonance_ignition' pixel difference vs prior: 58.1%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:593)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_worry_stone_spirit_03_spirit_resonance_ignition.png (71402 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestWorryStoneSpirit (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:593)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:58)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_phantom_shell_game_01_resting_cups.png (92141 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestPhantomShell (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:634)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:61)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_sliding_shuffle' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestPhantomShell (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:640)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:61)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_phantom_shell_game_02_sliding_shuffle.png (91809 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestPhantomShell (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:640)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:61)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_lift_reveal' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestPhantomShell (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:645)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:61)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_phantom_shell_game_03_lift_reveal.png (97703 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestPhantomShell (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:645)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:61)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_micro_wok_toss_01_resting_wok.png (78440 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMicroWokToss (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:689)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:62)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_wrist_flick_toss' pixel difference vs prior: 98.7%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMicroWokToss (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:695)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:62)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_micro_wok_toss_02_wrist_flick_toss.png (82503 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMicroWokToss (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:695)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:62)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_centered_catch' pixel difference vs prior: 98.7%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMicroWokToss (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:705)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:62)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_micro_wok_toss_03_centered_catch.png (78440 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMicroWokToss (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:705)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:62)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_galaxy_cauldron_01_quiescent_broth.png (94863 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestGalaxyCauldron (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:744)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:65)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_active_nebula_stir' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestGalaxyCauldron (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:761)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:65)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_galaxy_cauldron_02_active_nebula_stir.png (101191 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestGalaxyCauldron (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:761)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:65)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_star_vortex_ignition' pixel difference vs prior: 98.2%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestGalaxyCauldron (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:774)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:65)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_galaxy_cauldron_03_star_vortex_ignition.png (82538 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestGalaxyCauldron (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:774)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:65)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_medusa_jellyfish_01_trench_drift.png (80531 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:817)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_palm_bell_contraction' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:824)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_medusa_jellyfish_02_palm_bell_contraction.png (79586 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:824)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_jet_propulsion_ascent' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:835)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_medusa_jellyfish_03_jet_propulsion_ascent.png (85111 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:835)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '04_steering_dodge_mine' pixel difference vs prior: 97.7%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:840)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_medusa_jellyfish_04_steering_dodge_mine.png (87443 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestMedusaJellyfish (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:840)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:66)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_kraken_broth_01_storm_sea_ships.png (93694 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestKrakenBroth (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:874)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:67)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_fingertip_drum_charge' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestKrakenBroth (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:884)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:67)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_kraken_broth_02_fingertip_drum_charge.png (95583 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestKrakenBroth (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:884)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:67)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_tentacle_sector_slam' pixel difference vs prior: 99.0%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestKrakenBroth (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:893)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:67)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_kraken_broth_03_tentacle_sector_slam.png (100257 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestKrakenBroth (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:893)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:67)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_foghorn_buoy_01_upright_beacon.png (100445 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:929)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_swell_tilt_warning' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:933)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_foghorn_buoy_02_swell_tilt_warning.png (97084 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:933)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_counter_press_restoration' pixel difference vs prior: 98.7%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:938)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_foghorn_buoy_03_counter_press_restoration.png (100188 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:938)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '04_foghorn_shark_repel' pixel difference vs prior: 99.1%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:946)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_foghorn_buoy_04_foghorn_shark_repel.png (71760 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestFoghornBuoy (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:946)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:68)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_buckler_deflector_01_guard_stance.png (97916 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:980)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_fireball_cavity_capture' pixel difference vs prior: 98.3%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:989)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_buckler_deflector_02_fireball_cavity_capture.png (101534 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:989)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_swirling_captive_motes' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:999)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_buckler_deflector_03_swirling_captive_motes.png (99512 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:999)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '04_wrist_flick_beam_release' pixel difference vs prior: 99.0%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1010)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_buckler_deflector_04_wrist_flick_beam_release.png (98264 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestBucklerDeflector (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1010)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:69)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Saved: ux_singing_bowl_sanctuary_01_silent_bowl.png (95442 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSingingBowl (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1037)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:70)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '02_rim_friction_trace' pixel difference vs prior: 98.8%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestSingingBowl (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1048)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:70)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_singing_bowl_sanctuary_02_rim_friction_trace.png (101753 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSingingBowl (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1048)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:70)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Phase '03_acoustic_standing_wave' pixel difference vs prior: 98.9%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:228)
+XRGames.UXTesting.UXSimulator:TestSingingBowl (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1056)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:70)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 228)
+
+[UXSimulator] Saved: ux_singing_bowl_sanctuary_03_acoustic_standing_wave.png (93522 bytes)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:CaptureView (UnityEngine.Camera,string,string) (at Assets/Editor/UXSimulator.cs:237)
+XRGames.UXTesting.UXSimulator:TestSingingBowl (XRGames.UXTesting.UXReport) (at Assets/Editor/UXSimulator.cs:1056)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:70)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 237)
+
+[UXSimulator] Complete: 15/15 suites passed. Report saved to C:/Users/Administrator/UnityProjects/MetaXRSim/Assets\..\Screenshots\UX_TEST_REPORT.json
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+XRGames.UXTesting.UXSimulator:RunAll () (at Assets/Editor/UXSimulator.cs:79)
+
+(Filename: Assets/Editor/UXSimulator.cs Line: 79)
+
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Administrator-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Administrator channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,350 @@
+[2026-11-10T19:34:39] relay starting
+[2026-11-10T19:42:55] manager launched (gap 14,653,182.9 min)
+[2026-11-10T19:54:55] manager launched (gap 12.0 min)
+[2026-11-10T20:06:49] relay v2 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T20:07:34] manager launched model=google/gemini-3.5-flash-lite
+[2026-11-10T20:15:50] manager launched model=google/gemini-3.5-flash-lite
+[2026-11-10T20:24:23] relay v2 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T20:25:09] manager launched model=google/gemini-3.5-flash-lite
+[2026-11-10T20:33:24] manager launched model=google/gemini-3.5-flash-lite
+[2026-11-10T20:38:46] relay v3 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T20:39:32] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T20:45:32] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T20:51:33] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T22:04:42] relay v3 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T22:05:28] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T22:11:28] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T22:17:29] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T22:23:29] manager launched serial model=google/gemini-3.5-flash-lite
+[2026-11-10T22:28:27] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T22:29:13] set clam_pearl_guard -> building
+[2026-11-10T22:29:13] manager launched serial [clam_pearl_guard] (prev=building haveFailInfo=False)
+[2026-11-10T22:35:14] set clam_pearl_guard -> building
+[2026-11-10T22:35:14] manager launched serial [clam_pearl_guard] (prev=building haveFailInfo=False)
+[2026-11-10T22:39:24] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-10T22:40:10] set clam_pearl_guard -> building
+[2026-11-10T22:40:10] manager launched serial [clam_pearl_guard] (prev=building haveFailInfo=False)
+[2026-11-10T22:46:10] set clam_pearl_guard -> building
+[2026-11-10T22:46:10] manager launched serial [clam_pearl_guard] (prev=building haveFailInfo=False)
+[2026-11-10T22:52:11] set clam_pearl_guard -> building
+[2026-11-10T22:52:11] manager launched serial [clam_pearl_guard] (prev=building haveFailInfo=False)
+[2026-11-11T03:15:38] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T03:16:25] set bernoulli_levitator -> building
+[2026-11-11T03:16:25] manager launched serial [bernoulli_levitator] (prev=pending haveFailInfo=False)
+[2026-11-11T03:22:25] set bernoulli_levitator -> building
+[2026-11-11T03:22:25] manager launched serial [bernoulli_levitator] (prev=building haveFailInfo=False)
+[2026-11-11T03:28:10] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T03:28:56] set bernoulli_levitator -> building
+[2026-11-11T03:28:57] manager launched serial [bernoulli_levitator] (prev=building haveFailInfo=False)
+[2026-11-11T03:34:57] set bernoulli_levitator -> building
+[2026-11-11T03:34:57] manager launched serial [bernoulli_levitator] (prev=building haveFailInfo=False)
+[2026-11-11T03:40:58] set bernoulli_levitator -> building
+[2026-11-11T03:40:58] manager launched serial [bernoulli_levitator] (prev=building haveFailInfo=False)
+[2026-11-11T03:46:58] set bernoulli_levitator -> building
+[2026-11-11T03:46:58] manager launched serial [bernoulli_levitator] (prev=building haveFailInfo=False)
+[2026-11-11T03:52:59] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T03:59:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:05:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:11:01] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:17:01] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:23:02] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:29:02] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:35:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:41:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:47:04] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:53:04] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T04:59:04] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:05:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:11:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:17:06] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:23:06] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:29:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:35:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:41:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:47:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:53:09] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T05:59:09] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:05:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:11:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:17:11] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:23:11] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:29:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:35:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:41:13] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:47:13] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:53:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T06:59:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:05:15] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:11:15] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:17:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:23:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:29:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:35:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:41:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:47:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:50:34] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T07:51:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T07:57:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:03:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:09:15] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T08:10:12] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T08:10:59] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:16:59] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:23:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:27:29] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T08:28:28] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T08:29:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:30:40] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T08:31:27] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:37:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:43:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:49:29] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T08:55:29] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:15:52] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T09:16:39] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:22:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:28:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:31:40] watchdog: manager silent 40 min, kill
+[2026-11-11T09:32:26] watchdog: manager silent 40 min, kill
+[2026-11-11T09:33:11] watchdog: manager silent 40 min, kill
+[2026-11-11T09:33:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:39:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:45:57] watchdog: manager silent 40 min, kill
+[2026-11-11T09:46:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:49:42] watchdog: manager silent 40 min, kill
+[2026-11-11T09:50:27] watchdog: manager silent 40 min, kill
+[2026-11-11T09:51:13] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:51:58] watchdog: manager silent 40 min, kill
+[2026-11-11T09:52:43] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T09:58:43] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:00:14] watchdog: manager silent 40 min, kill
+[2026-11-11T10:00:59] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:05:39] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T10:06:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:11:41] watchdog: manager silent 40 min, kill
+[2026-11-11T10:12:27] watchdog: manager silent 40 min, kill
+[2026-11-11T10:13:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:19:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:25:13] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:31:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:37:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:43:15] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:49:15] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T10:55:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:01:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:07:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:13:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:19:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:25:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:31:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:37:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:43:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:49:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T11:55:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:01:22] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:07:22] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:13:23] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:19:23] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:25:24] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:31:25] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:37:25] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:43:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:49:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T12:55:27] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:01:27] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:07:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:13:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:19:29] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:25:29] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:31:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:37:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:43:31] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:49:32] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T13:55:32] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:01:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:07:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:13:34] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:19:34] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:25:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:29:20] watchdog: manager silent 40 min, kill
+[2026-11-11T14:30:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:36:06] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:39:51] watchdog: manager silent 40 min, kill
+[2026-11-11T14:40:36] watchdog: manager silent 40 min, kill
+[2026-11-11T14:41:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:47:22] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T14:53:23] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T16:57:48] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T16:58:45] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:04:57] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:11:09] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:17:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:23:32] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:29:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:35:55] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:42:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:48:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T17:54:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:00:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:06:53] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:13:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:19:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:25:31] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:31:43] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:37:55] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:44:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:50:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T18:53:02] relay v4 starting model=google/gemini-3.5-flash-lite
+[2026-11-11T18:53:57] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:00:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:06:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:12:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:18:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:24:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:31:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:37:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:43:31] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:49:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T19:55:54] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:02:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:08:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:14:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:20:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:26:51] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:33:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:39:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:45:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:51:37] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T20:57:49] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:04:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:10:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:16:24] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:22:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:28:47] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:34:58] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:41:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:47:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:53:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T21:59:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:05:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:12:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:18:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:24:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:30:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:36:53] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:43:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:49:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T22:55:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:01:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:07:51] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:14:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:20:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:26:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:32:37] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:38:49] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:45:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:51:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-11T23:57:24] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:03:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:09:47] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:15:58] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:22:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:28:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:34:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:40:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:46:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:53:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T00:59:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:05:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:11:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:17:53] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:24:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:30:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:36:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:42:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:48:51] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T01:55:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:01:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:07:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:13:37] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:19:49] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:26:00] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:32:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:38:23] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:44:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:50:46] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T02:56:58] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:03:09] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:09:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:15:32] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:21:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:27:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:34:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:40:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:46:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:52:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T03:58:53] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:05:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:11:16] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:17:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:23:39] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:29:51] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:36:02] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:42:14] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:48:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T04:54:38] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:00:49] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:07:01] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:13:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:19:24] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:25:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:31:47] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:37:58] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:44:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:50:22] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T05:56:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:02:45] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:08:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:15:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:21:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:27:31] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:33:42] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:39:54] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:46:05] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:52:17] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T06:58:28] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:04:40] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:10:52] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:17:03] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:23:15] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:29:26] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:35:38] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:41:49] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:48:01] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T07:54:12] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:00:24] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:06:35] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:12:47] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:18:58] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:25:10] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:31:21] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:37:33] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:43:45] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:49:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T08:56:08] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:02:20] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:08:32] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:14:44] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:20:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:27:07] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:33:19] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:39:31] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:45:43] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:51:56] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T09:52:58] watchdog: manager silent 40 min, kill
+[2026-11-12T09:53:51] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T10:00:04] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T10:06:18] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T10:12:30] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T10:18:43] no games to work (all complete or attempts exhausted) - idling
+[2026-11-12T10:24:55] no games to work (all complete or attempts exhausted) - idling

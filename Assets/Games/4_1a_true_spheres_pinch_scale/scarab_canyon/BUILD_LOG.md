@@ -1,0 +1,18 @@
+# scarab_canyon build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_08_scarab_canyon.md
+- classes:
+  - ScarabCanyonConfig: gravity, lateral scale, groove limits, spill timing
+  - PalmSurface: crease axis and plane fit
+  - MarbleTracker: groove position and velocity
+  - TiltModel: roll angle dead-band
+  - GroovePhysics: gravity acceleration, stiction, spill hold detection
+  - CanyonDirector: scroll speed, palm lift pause, glow slowdown
+  - OrbJudge: 4.1x lateral mapping, clean pass and near-miss scoring
+  - ScarabRig: scarab animation state
+  - CanyonRig: canyon visual rendering
+  - RunDirector: lives, glow, streak multipliers
+  - ScarabCanyonRig: MonoBehaviour runtime rig
+- constants source: ScarabCanyonConfig fields
+- tests automated: 13 items (Test01..Test12, Test14), NeedsDevice: 1 item (Test13)
+- honest limitations / assumptions: EditMode tests verify physics integration; runtime rig binds to hand mesh and camera.

@@ -1,0 +1,9 @@
+I have initialized the XR_Games_04 campaign manager run:
+
+1. **Checked Campaign Status**: Read `AGENTS.md`, `Campaign~/BLUEPRINT.md`, and `Campaign~/manifest.json`. No games currently have `gate_fail`.
+2. **Spawned Workers**: Picked the first 3 pending games and spawned parallel general sub-agents to implement them:
+   - **Socket Trackball** (`4_1a_true_spheres_pinch_scale`, slug: `socket_trackball`)
+   - **Clam Pearl Guard** (`4_1a_true_spheres_pinch_scale`, slug: `clam_pearl_guard`)
+   - **Bernoulli Levitator** (`4_1a_true_spheres_pinch_scale`, slug: `bernoulli_levitator`)
+
+The sub-agents are currently building the pure C# core logic, config, thin Meta XR rig, EditMode acceptance tests, and `BUILD_LOG.md` for each game. Once they complete, we will queue them and log progress per the campaign rules.

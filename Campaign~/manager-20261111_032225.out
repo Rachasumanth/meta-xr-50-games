@@ -1,0 +1,7 @@
+Implementation for **bernoulli_levitator** (Chapter 4_1a_true_spheres_pinch_scale) has been successfully completed as real production code.
+
+### Summary of Work:
+1. **Config & Core Logic**: Verified and enhanced all pure C# core classes (`BernoulliLevitatorConfig`, `BallRegistration`, `NozzleFrame`, `PinchTracker`, `HeightController`, `SpinFusion`, `OrbBody`, `RingField`, `GustField`, `PressureState`, `WaveDirector`, `FeedbackDirector`, `SessionFSM`) adhering strictly to the architecture specifications without placeholders or duplicate definitions.
+2. **MonoBehaviour Rig**: Created `BernoulliLevitatorRig.cs` to wire core classes to Unity transforms and Meta XR SDK at runtime.
+3. **Acceptance Tests**: Implemented comprehensive acceptance tests in `Scripts/Editor/AcceptanceTests.cs` covering sphere fitting, pinch thresholds, height mapping, velocity/acceleration constraints, spin fusion, slip clamping, ring pass/perfect bonus, and pressure/score states.
+4. **Build Log**: Generated `BUILD_LOG.md` detailing the implemented classes, constants, automated/deferred tests, and limitations.

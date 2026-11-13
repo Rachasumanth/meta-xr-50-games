@@ -1,0 +1,18 @@
+# chrono_sphere_scrub build report
+- status: implemented, awaiting gate
+- spec: Specs~/4_1a_true_spheres_pinch_scale/game_09_chrono_sphere_scrub.md
+- classes:
+  - ChronoSphereScrubConfig: constants, timeline bounds, conversion scale
+  - PropMarble: hold axis and registration
+  - PinchModel: thumb/middle opposition and separation thresholds
+  - TwistIntegrator: angular scrub velocity filtering
+  - Timeline: timeline coordinate T ms, elastic bounce, release freeze
+  - DioramaModel: deterministic 12-fragment diorama sampling
+  - ResonanceJudge: target t*, resonance window w, precision, harmonic pitch
+  - ScenarioDirector: scenarios, attempts, failure retries (+1200ms)
+  - DioramaRig: diorama rendering state
+  - ChronoDial: HUD dial display
+  - ChronoSphereScrubRig: MonoBehaviour runtime rig
+- constants source: ChronoSphereScrubConfig fields
+- tests automated: 13 items (Test01..Test10, Test12..Test14), NeedsDevice: 1 item (Test11)
+- honest limitations / assumptions: Core timeline logic verified in pure C# EditMode suite; runtime rig binds to Meta XR hand tracking.

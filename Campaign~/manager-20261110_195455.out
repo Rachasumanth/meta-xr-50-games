@@ -1,0 +1,5 @@
+I'll start by reading the required campaign files.
+Manifest shows all 50 games still `pending` (attempts 0). Let me verify the gate results and current queue state before deciding on the batch.
+Fresh campaign state: no gate results yet, empty queue, no manager log — no `gate_fail` games to fix. So I'll implement the first 3 pending games. Let me check the specs folder.
+No `GateFail` games and no code yet — this is a fresh campaign start. Per the blueprint I'll take the first 3 pending games in manifest order for the batch: `socket_trackball`, `clam_pearl_guard`, `bernoulli_levitator`. Let me quickly check the project structure so the workers get accurate context.
+Unity project confirmed with Meta XR SDK 207.0.1. Program: **Batch 1 will implement the first three chapter 4_1a games in parallel — `socket_trackball`, `clam_pearl_guard`, and `bernoulli_levitator` — one sub-agent each.**
