@@ -1,0 +1,39 @@
+SHAPEFORGE 50 - MUSIC CREDITS
+================================
+
+All four tracks are released under Creative Commons Zero (CC0 1.0 Universal,
+public-domain dedication). Attribution is not required by the license, but the
+authors and source pages are credited here for transparency.
+
+1. "Observing The Star"
+   Author: yd
+   License: CC0 1.0
+   Source: https://opengameart.org/content/another-space-background-track
+   File: hub_observing_the_star.ogg
+   Use: hub / menu ambience
+
+2. "Mystical Enigmatic Background Music"
+   Author: CleytonKauffman
+   License: CC0 1.0
+   Source: https://opengameart.org/content/mystical-enigmatic-background-music
+   File: mystic_enigmatic.mp3
+   Use: dome and bowl families
+
+3. "Fast Fight Battle Music (looped)"
+   Author: XCVG
+   License: CC0 1.0
+   Source: https://opengameart.org/content/fast-fight-battle-music-looped
+   File: arcade_fight_loop.ogg
+   Use: sphere action families
+
+4. "I Swear I Saw It"
+   Author: yd
+   License: CC0 1.0
+   Source: https://opengameart.org/content/i-swear-i-saw-it-background-track
+   File: curious_i_swear.ogg
+   Use: spheroid / curious-object family
+
+License text: https://creativecommons.org/publicdomain/zero/1.0/
+
+The sound effects are generated procedurally at runtime by AudioDirector and
+contain no third-party samples.

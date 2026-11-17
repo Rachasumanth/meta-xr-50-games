@@ -44,3 +44,14 @@ crash*
 !Campaign~/**
 !Specs~/
 !Specs~/**
+
+# Unity temp
+.utmp/
+
+# Local QA / simulator scratch (binaries, logs, downloaded GPU drivers)
+Simulator/
+sim_screen.png
+
+# Build outputs and release binaries live in GitHub Releases, not in git
+Releases/
+

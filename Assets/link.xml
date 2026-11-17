@@ -1,0 +1,9 @@
+<linker>
+  <!-- The unified hub attaches the 50 gate-verified game rigs by type. Keep the
+       whole gameplay assembly and Meta runtime so IL2CPP stripping cannot
+       remove reflection-reached fields or rig classes. -->
+  <assembly fullname="Assembly-CSharp" preserve="all" />
+  <assembly fullname="Oculus.VR" preserve="all" />
+  <assembly fullname="Unity.XR.Oculus" preserve="all" />
+  <assembly fullname="Unity.XR.Management" preserve="all" />
+</linker>

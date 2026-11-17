@@ -4,6 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ShapeForge.unity
+    guid: 7cff5e0af6a1983488f3e7f1f44abf42
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d07795b6d90be81418dd032de98a3f5f, type: 2}
   m_UseUCBPForAssetBundles: 0
